@@ -1,19 +1,15 @@
 <script>
 	const paths = [
 		{
-			href: '/about-us',
 			title: 'About us'
 		},
 		{
-			href: '/portfolio',
 			title: 'Portfolio'
 		},
 		{
-			href: '/blog',
 			title: 'Blog'
 		},
 		{
-			href: '/contact',
 			title: 'Contact'
 		}
 	];
