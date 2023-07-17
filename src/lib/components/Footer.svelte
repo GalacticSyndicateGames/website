@@ -21,23 +21,23 @@
 </script>
 
 <footer
-	class="overflow-x-hidden relative w-full bg-navy h-96 px-wrapper flex items-center gap-40"
+	class="relative flex h-96 w-full items-center gap-40 overflow-x-hidden bg-navy px-wrapper"
 >
 	<Logo />
 	<nav class="w-fit space-y-4">
-		<h2 class="uppercase font-aldrich text-5xl">Social media</h2>
-		<ul class="w-full flex justify-between">
+		<h2 class="font-aldrich text-5xl uppercase">Social media</h2>
+		<ul class="flex w-full justify-between">
 			{#each socials as s}
 				<li>
 					<a href={s.href}>
-						<img alt={s.title} src={s.iconPath} class="w-20 aspect-square" />
+						<img alt={s.title} src={s.iconPath} class="aspect-square w-20" />
 					</a>
 				</li>
 			{/each}
 		</ul>
 	</nav>
 	<img
-		class="h-full absolute top-0 -right-48"
+		class="absolute -right-48 top-0 h-full"
 		src="/svgs/footer-planet.svg"
 		alt="A Pink planet floating away"
 	/>

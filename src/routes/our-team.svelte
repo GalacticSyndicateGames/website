@@ -37,9 +37,9 @@
 </script>
 
 <section
-	class="flex flex-col justify-start items-center gap-40 my-28 max-w-screen-2xl mx-auto min-h-screen"
+	class="mx-auto my-28 flex min-h-screen max-w-screen-2xl flex-col items-center justify-start gap-40"
 >
-	<h2 class="font-aldrich uppercase text-7xl text-blue">Our team</h2>
+	<h2 class="font-aldrich text-7xl uppercase text-blue">Our team</h2>
 	<ul class="space-y-16">
 		{#each team as m, i}
 			<li>
