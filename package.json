@@ -1,5 +1,5 @@
 {
-	"name": "website",
+	"name": "galactic-fleet-website",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -9,6 +9,11 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "pnpm run format && pnpm run lint"
+		}
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
@@ -22,9 +27,11 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
+		"husky": "^8.0.3",
 		"postcss": "^8.4.26",
-		"prettier": "^2.8.0",
+		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.1",
+		"prettier-plugin-tailwindcss": "^0.4.1",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
 		"tailwindcss": "^3.3.3",
@@ -35,6 +42,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/aldrich": "^5.0.5",
-		"@fontsource/anonymous-pro": "^5.0.5"
+		"@fontsource/anonymous-pro": "^5.0.5",
+		"clsx": "^2.0.0"
 	}
 }
