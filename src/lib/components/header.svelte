@@ -24,9 +24,7 @@
 >
 	<nav class="space-x-8">
 		{#each paths as p}
-			<a
-				href={p.href}
-				class="font-aldrich text-4xl uppercase text-yellow transition-opacity hover:opacity-80"
+			<a href={p.href} class="font-aldrich text-4xl uppercase text-yellow"
 				>{p.title}</a
 			>
 		{/each}

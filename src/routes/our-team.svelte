@@ -37,7 +37,7 @@
 </script>
 
 <section
-	class="mx-auto my-28 flex min-h-screen max-w-screen-2xl flex-col items-center justify-start gap-40"
+	class="mx-auto py-28 flex min-h-screen max-w-screen-2xl flex-col items-center justify-start gap-40"
 >
 	<h2 class="font-aldrich text-7xl uppercase text-blue">Our team</h2>
 	<ul class="space-y-16">

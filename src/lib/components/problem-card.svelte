@@ -12,7 +12,7 @@
 	export let index: number;
 </script>
 
-<article class={clsx('flex gap-x-8', index % 2 === 1 && 'flex-row-reverse')}>
+<article class={clsx('flex gap-x-4', index % 2 === 1 && 'flex-row-reverse')}>
 	<figure class="shrink-0">
 		<img src={problem.imgUrl} alt={problem.title} />
 	</figure>
