@@ -42,7 +42,7 @@
 </script>
 
 <section class="bg-white text-black">
-	<ul class="w-full max-w-screen-2xl mx-auto space-y-28 py-28">
+	<ul class="mx-auto w-full max-w-screen-2xl space-y-28 py-28">
 		{#each data as d, i}
 			<li>
 				<ProblemCard problem={d} index={i} />

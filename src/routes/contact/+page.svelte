@@ -23,11 +23,11 @@
 	<title>Contact</title>
 </svelte:head>
 
-<section class="relative px-wrapper bg-image w-full min-h-screen">
+<section class="bg-image relative min-h-screen w-full px-wrapper">
 	<h1 class="sr-only">Contact informations for Galactic Syndicate</h1>
 
 	<div
-		class="absolute right-0 top-0 h-full w-fit flex flex-col items-center justify-center gap-y-8"
+		class="absolute right-0 top-0 flex h-full w-fit flex-col items-center justify-center gap-y-8"
 	>
 		<Logo />
 		<ul class="flex flex-col items-start justify-start gap-y-2">

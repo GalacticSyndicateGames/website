@@ -1,6 +1,6 @@
 <article class="flex gap-x-12">
 	<svg
-		class="w-[525px] aspect-square shrink-0"
+		class="aspect-square w-[525px] shrink-0"
 		viewBox="0 0 526 526"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
 		</p>
 		<a
 			href="/blog"
-			class="transition-opacity hover:opacity-90 font-aldrich rounded-full bg-blue px-10 py-2 text-4xl capitalize text-white"
+			class="rounded-full bg-blue px-10 py-2 font-aldrich text-4xl capitalize text-white transition-opacity hover:opacity-90"
 		>
 			Read more
 		</a>

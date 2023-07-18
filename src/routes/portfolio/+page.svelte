@@ -8,11 +8,11 @@
 </svelte:head>
 
 <section
-	class="flex flex-col justify-end items-center bg-image w-full h-screen"
+	class="bg-image flex h-screen w-full flex-col items-center justify-end"
 >
 	<div class="pb-12">
 		<h1
-			class="font-aldrich inline-flex flex-col justify-end items-center gap-10"
+			class="inline-flex flex-col items-center justify-end gap-10 font-aldrich"
 		>
 			<span class="text-7xl">Talk to us...</span>
 			<span class="text-5xl"
@@ -22,7 +22,7 @@
 	</div>
 </section>
 <ProblemList />
-<section class="bg-white flex items-center justify-center">
+<section class="flex items-center justify-center bg-white">
 	<ul class="flex flex-wrap space-y-4 py-8">
 		{#each { length: 8 } as _, i (i)}
 			<li>

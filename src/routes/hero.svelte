@@ -3,14 +3,8 @@
 </script>
 
 <section class="relative flex min-h-screen w-full overflow-x-hidden">
-	<img
-		class=" h-full w-full translate-x-44 object-fill"
-		alt="Spaceship flying in space"
-		src="/hero.svg"
-	/>
-
 	<div
-		class="absolute top-0 z-10 flex h-screen flex-col items-start justify-between gap-28 p-wrapper pt-headerHeight"
+		class="absolute top-0 flex h-screen flex-col items-start justify-between gap-28 p-wrapper pt-headerHeight"
 	>
 		<Logo />
 		<div class="flex flex-col items-start justify-between gap-32">
