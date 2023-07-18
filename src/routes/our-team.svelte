@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Member } from '$lib/components/TeamMember.svelte';
-	import TeamMember from '$lib/components/TeamMember.svelte';
+	import type { Member } from '$lib/components/member-card.svelte';
+	import MemberCard from '$lib/components/member-card.svelte';
 
 	const team: Array<Member> = [
 		{
@@ -43,7 +43,7 @@
 	<ul class="space-y-16">
 		{#each team as m, i}
 			<li>
-				<TeamMember
+				<MemberCard
 					member={m}
 					align={i % 2 ? 'left' : 'right'}
 					imgSrc={`/images/team/member-${i + 1}.png`}

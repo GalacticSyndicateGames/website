@@ -2,14 +2,14 @@
 	import '@fontsource/aldrich';
 	import '@fontsource/anonymous-pro';
 
-	import Header from '$lib/components/Header.svelte';
+	import Header from '$lib/components/header.svelte';
 	import '../app.css';
-	import Footer from '$lib/components/Footer.svelte';
+	import Footer from '$lib/components/footer.svelte';
 </script>
 
-<div class="bg-black text-white">
+<div class=" text-white">
 	<Header />
-	<main class="">
+	<main>
 		<slot />
 	</main>
 	<Footer />

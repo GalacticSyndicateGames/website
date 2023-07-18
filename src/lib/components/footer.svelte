@@ -1,21 +1,21 @@
 <script>
-	import Logo from './Logo.svelte';
+	import Logo from './logo.svelte';
 
 	const socials = [
 		{
 			href: 'https://www.facebook.com',
 			title: 'Facebook',
-			iconPath: '/icons/facebook.svg'
+			iconPath: '/svgs/icons/facebook.svg'
 		},
 		{
 			href: 'https://www.instagram.com',
 			title: 'Instagram',
-			iconPath: '/icons/instagram.svg'
+			iconPath: '/svgs/icons/instagram.svg'
 		},
 		{
 			href: 'https://www.linkedin.com',
 			title: 'LinkedIn',
-			iconPath: '/icons/linkedin.svg'
+			iconPath: '/svgs/icons/linkedin.svg'
 		}
 	];
 </script>
@@ -38,7 +38,7 @@
 	</nav>
 	<img
 		class="absolute -right-48 top-0 h-full"
-		src="/svgs/footer-planet.svg"
+		src="/svgs/layout/footer-planet.svg"
 		alt="A Pink planet floating away"
 	/>
 </footer>

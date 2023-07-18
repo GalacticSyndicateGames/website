@@ -11,8 +11,6 @@
 	export let member: Member;
 	export let align: 'left' | 'right';
 	export let imgSrc: string;
-
-	console.log(member.name, imgSrc);
 </script>
 
 <div class={clsx('flex gap-8', align === 'left' && 'flex-row-reverse')}>

@@ -1,16 +1,20 @@
 <script>
 	const paths = [
 		{
-			title: 'About us'
+			title: 'About us',
+			href: '/'
 		},
 		{
-			title: 'Portfolio'
+			title: 'Portfolio',
+			href: '/portfolio'
 		},
 		{
-			title: 'Blog'
+			title: 'Blog',
+			href: '/blog'
 		},
 		{
-			title: 'Contact'
+			title: 'Contact',
+			href: '/contact'
 		}
 	];
 </script>
@@ -21,7 +25,7 @@
 	<nav class="space-x-8">
 		{#each paths as p}
 			<a
-				href={''}
+				href={p.href}
 				class="font-aldrich text-4xl uppercase text-yellow transition-opacity hover:opacity-80"
 				>{p.title}</a
 			>

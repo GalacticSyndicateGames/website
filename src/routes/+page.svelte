@@ -4,9 +4,11 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>About us</title>
+	<meta name="description" content="Something something..." />
 </svelte:head>
 
-<Hero />
-<OurTeam />
+<div class="bg-black">
+	<Hero />
+	<OurTeam />
+</div>

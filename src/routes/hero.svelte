@@ -1,5 +1,5 @@
 <script>
-	import Logo from '$lib/components/Logo.svelte';
+	import Logo from '$lib/components/logo.svelte';
 </script>
 
 <section class="relative flex min-h-screen w-full overflow-x-hidden">
@@ -10,7 +10,7 @@
 	/>
 
 	<div
-		class="absolute top-0 z-10 flex h-screen flex-col items-start justify-between gap-28 px-wrapper pb-wrapper pt-headerHeight"
+		class="absolute top-0 z-10 flex h-screen flex-col items-start justify-between gap-28 p-wrapper pt-headerHeight"
 	>
 		<Logo />
 		<div class="flex flex-col items-start justify-between gap-32">
