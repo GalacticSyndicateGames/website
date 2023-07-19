@@ -11,7 +11,7 @@
 	export let data;
 </script>
 
-<div class="bg-black text-white">
+<div class=" text-white">
 	<Header />
 	{#key data.url}
 		<main in:fly={{ duration: 400 }} out:fly={{ duration: 100 }}>

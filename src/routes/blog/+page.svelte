@@ -1,21 +1,27 @@
 <script>
 	import BlogCard from './blog-card.svelte';
+
+	export let data;
+	console.log(data.posts);
 </script>
 
 <svelte:head>
 	<title>Blog</title>
 </svelte:head>
 
-<section class="bg-image min-h-screen w-full text-black">
-	<img class="absolute top-0" src="/svgs/layout/blog-bg.svg" alt="" />
-	<ul class="z-10 mx-auto w-full max-w-screen-xl space-y-40 pb-40 pt-[50vh]">
-		{#each { length: 8 } as _, i (i)}
+<section class="bg-image bg-white min-h-screen w-full text-black">
+	<ul class="z-20 mx-auto w-full max-w-screen-xl space-y-40 pb-40 pt-[50vh]">
+		{#each data.posts as p, i (i)}
 			<li>
-				<BlogCard />
+				<BlogCard post={p} />
 			</li>
 		{/each}
 	</ul>
 </section>
 
 <style>
+	.bg-image {
+		background-image: url('/svgs/layout/blog-bg.svg');
+		background-repeat: no-repeat;
+	}
 </style>

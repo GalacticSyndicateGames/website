@@ -1,3 +1,8 @@
+<script lang="ts">
+	import type { Post } from '$lib/types';
+	export let post: Post;
+</script>
+
 <article class="flex gap-x-12">
 	<svg
 		class="aspect-square w-[525px] shrink-0"
@@ -48,17 +53,16 @@
 			</svg>
 
 			<div class="font-aldrich">
-				<p class="text-3xl">Author Name</p>
-				<p class="text-2xl">Feb 18</p>
+				<p class="text-3xl">{post.author}</p>
+				<p class="text-2xl">{post.date}</p>
 			</div>
 		</div>
-		<h3 class="font-aldrich text-6xl text-blue">Lorem Ipsum</h3>
+		<h3 class="font-aldrich text-6xl text-blue">{post.title}</h3>
 		<p class="font-anonymous text-3xl">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.
+			{post.description}
 		</p>
 		<a
-			href="/blog"
+			href={`/blog/${post.slug}`}
 			class="rounded-full bg-blue px-10 py-2 font-aldrich text-4xl capitalize text-white transition-opacity hover:opacity-90"
 		>
 			Read more
