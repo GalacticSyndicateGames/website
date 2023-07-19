@@ -1,5 +1,5 @@
 <script>
-	import ProblemList from './ProblemList.svelte';
+	import ProblemList from './problem-list.svelte';
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import ProblemCard from '$lib/components/problem-card.svelte';
-	import type { Problem } from '$lib/components/problem-card.svelte';
+	import ProblemCard from './problem-card.svelte';
+	import type { Problem } from './problem-card.svelte';
 
 	const data: Array<Problem> = [
 		{

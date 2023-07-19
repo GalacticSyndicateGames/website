@@ -21,6 +21,10 @@
 
 <svelte:head>
 	<title>Contact</title>
+	<meta
+		name="description"
+		content="Contact informations for Galactic Syndicate"
+	/>
 </svelte:head>
 
 <section class="bg-image relative min-h-screen w-full px-wrapper">

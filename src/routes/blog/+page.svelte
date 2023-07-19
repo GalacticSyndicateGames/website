@@ -1,5 +1,5 @@
 <script>
-	import BlogCard from '$lib/components/blog-card.svelte';
+	import BlogCard from './blog-card.svelte';
 </script>
 
 <svelte:head>
@@ -7,8 +7,8 @@
 </svelte:head>
 
 <section class="bg-image min-h-screen w-full text-black">
-	<img class="absolute top-0 -z-10" src="/svgs/layout/blog-bg.svg" alt="" />
-	<ul class="mx-auto w-full max-w-screen-xl space-y-40 pb-40 pt-[50vh]">
+	<img class="absolute top-0" src="/svgs/layout/blog-bg.svg" alt="" />
+	<ul class="z-10 mx-auto w-full max-w-screen-xl space-y-40 pb-40 pt-[50vh]">
 		{#each { length: 8 } as _, i (i)}
 			<li>
 				<BlogCard />
