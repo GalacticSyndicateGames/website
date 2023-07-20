@@ -1,9 +1,23 @@
 # Galactic Fleet Website
 
 Currently, this site is built with SvelteKit, with the possibility to migrate to any other framework.
-Later this week I will migrate this to Asto.js, which is a static site generator, that lets you build websites
-with any UI framework (or multiple all at once).
 
-### Deployment
+## Blog
 
-The site is currently deployed on Vercel, which uses AWS under the hood and its free and easy to use. To acces it, you will need a password.
+Currently, to publish an article, instead of creating `post.md` at `src/routes/blog/post/`,  
+you'll need to create a folder matching your posts title, and a `+page.md`.  
+So for example, `posts/post-title.md` becomes `posts/post-title/+page.md`.  
+<br/>
+Also note, that you'll need to include a frontmatter at the top of the file like so:
+
+```
+---
+title: "some title"
+author: "some name"
+description: "some description"
+date: "yyyy-mm-dd"
+published: true
+---
+```
+
+Setting `published` to `false`, will remove the file from the generated static build.

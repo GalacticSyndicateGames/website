@@ -1,6 +1,5 @@
 <script lang="ts">
 	import BlogCard from './blog-card.svelte';
-	import type { Post } from '$lib/types';
 
 	export let data;
 </script>

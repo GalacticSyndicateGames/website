@@ -27,7 +27,9 @@ export const load: LayoutServerLoad = async () => {
 
 		if (file && typeof file === 'object' && 'metadata' in file) {
 			const metadata = file.metadata as Omit<Post, 'slug'>;
-			posts.push({ ...metadata, slug });
+			if (metadata.published) {
+				posts.push({ ...metadata, slug });
+			}
 		}
 	}
 
