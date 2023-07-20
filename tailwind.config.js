@@ -27,6 +27,7 @@ export default {
 			},
 			spacing: {
 				headerHeight: '7rem',
+				headerHeightDouble: '14rem',
 				wrapper: '4rem'
 			},
 			borderRadius: {
@@ -34,5 +35,5 @@ export default {
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };

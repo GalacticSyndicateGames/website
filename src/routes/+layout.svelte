@@ -1,11 +1,11 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import '@fontsource/aldrich';
 	import '@fontsource/anonymous-pro';
 
 	import Header from '$lib/components/header.svelte';
 	import Footer from '$lib/components/footer.svelte';
-	import { crossfade, fade, fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 
 	//data that comes from +layout.server.ts
 	export let data;

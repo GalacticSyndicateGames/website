@@ -9,7 +9,7 @@
 
 <section
 	bind:this={Hero}
-	class="flex flex-col items-start justify-between min-h-screen w-full overflow-x-hidden p-wrapper pt-headerHeight"
+	class="flex min-h-screen w-full flex-col items-start justify-between overflow-x-hidden p-wrapper pt-headerHeight"
 >
 	<Logo />
 
@@ -26,7 +26,7 @@
 				if (showDropdown) {
 					Dropdown.scrollIntoView({ behavior: 'smooth', block: 'end' });
 				} else {
-					Dropdown.scrollIntoView({ behavior: 'smooth', block: 'start' });
+					Hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
 				}
 			}}
 		>
@@ -37,7 +37,7 @@
 					viewBox="0 0 24 24"
 					stroke-width="2.5"
 					stroke="currentColor"
-					class={`h-12 w-12 transition-transform transform-gpu duration-300 ease-in-out ${
+					class={`h-12 w-12 transform-gpu transition-transform duration-300 ease-in-out ${
 						showDropdown ? 'rotate-90' : 'rotate-0'
 					}`}
 				>
@@ -55,7 +55,7 @@
 <p
 	bind:this={Dropdown}
 	class={`px-wrapper font-anonymous text-3xl transition-all duration-300 ${
-		showDropdown ? 'opacity-100 translate-x-0' : 'opacity-0 translate-y-10'
+		showDropdown ? 'translate-x-0 opacity-100' : 'translate-y-10 opacity-0'
 	}`}
 >
 	Our Quality Execution Focusing On Your KPIs <br />

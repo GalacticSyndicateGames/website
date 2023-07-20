@@ -1,6 +1,12 @@
 import { mdsvex } from 'mdsvex';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+
+/** @type {import('mdsevx').MdsvexOptions} */
+const markdownConfig = {
+	extensions: ['.md'],
+	layout: './src/routes/blog/posts/markdown-layout.svelte'
+};
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,7 +14,7 @@ const config = {
 
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [vitePreprocess(), mdsvex({ extensions: ['.md'] })],
+	preprocess: [vitePreprocess(), mdsvex(markdownConfig)],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

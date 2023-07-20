@@ -53,16 +53,16 @@
 			</svg>
 
 			<div class="font-aldrich">
-				<p class="text-3xl">{post.author}</p>
-				<p class="text-2xl">{post.date}</p>
+				<p class="text-3xl">{post.author ?? ''}</p>
+				<p class="text-2xl">{post.date ?? ''}</p>
 			</div>
 		</div>
-		<h3 class="font-aldrich text-6xl text-blue">{post.title}</h3>
+		<h3 class="font-aldrich text-6xl text-blue">{post.title ?? ''}</h3>
 		<p class="font-anonymous text-3xl">
-			{post.description}
+			{post.description ?? ''}
 		</p>
 		<a
-			href={`/blog/${post.slug}`}
+			href={`/blog/posts/${post.slug}`}
 			class="rounded-full bg-blue px-10 py-2 font-aldrich text-4xl capitalize text-white transition-opacity hover:opacity-90"
 		>
 			Read more

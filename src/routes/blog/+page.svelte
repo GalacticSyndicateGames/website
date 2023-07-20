@@ -1,15 +1,15 @@
-<script>
+<script lang="ts">
 	import BlogCard from './blog-card.svelte';
+	import type { Post } from '$lib/types';
 
 	export let data;
-	console.log(data.posts);
 </script>
 
 <svelte:head>
 	<title>Blog</title>
 </svelte:head>
 
-<section class="bg-image bg-white min-h-screen w-full text-black">
+<section class="bg-image min-h-screen w-full bg-white text-black">
 	<ul class="z-20 mx-auto w-full max-w-screen-xl space-y-40 pb-40 pt-[50vh]">
 		{#each data.posts as p, i (i)}
 			<li>
