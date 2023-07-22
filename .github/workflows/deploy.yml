@@ -23,7 +23,7 @@ jobs:
           cache: npm
 
       - name: Install Dependecies
-        uses: pnpm install
+        run: pnpm install
 
       - name: Build
         env:
@@ -41,7 +41,7 @@ jobs:
     needs: build_site
     runs-on: ubuntu-latest
 
-    permisions:
+    permissions:
       pages: write,
       id-token: write
 
