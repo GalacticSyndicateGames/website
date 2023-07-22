@@ -8,17 +8,22 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"prepare": "husky install"
 	},
 	"husky": {
 		"hooks": {
 			"prepare": "husky install",
-			"pre-commit": "pnpm run format && pnpm run lint"
+			"pre-commit": "lint-staged"
 		}
 	},
+	"lint-staged": {
+		"src/**/*.{js,ts,svelte,md}": [
+			"pnpx prettier --write",
+			"pnpx eslint --fix"
+		]
+	},
 	"devDependencies": {
-		"@fontsource/fira-mono": "^4.5.10",
-		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.2",
 		"@sveltejs/kit": "^1.20.4",
@@ -30,7 +35,8 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
-		"husky": "^8.0.3",
+		"husky": "^8.0.0",
+		"lint-staged": "^13.2.3",
 		"mdsvex": "^0.11.0",
 		"postcss": "^8.4.26",
 		"prettier": "^2.8.8",
