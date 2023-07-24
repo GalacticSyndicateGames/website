@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Hero from './hero.svelte';
 	import OurTeam from './our-team.svelte';
 </script>
@@ -8,13 +9,9 @@
 	<meta name="description" content="Something something..." />
 </svelte:head>
 
-<div class="bg-image">
+<div
+  style="background-image: url('{base}/svgs/layout/home-bg.svg');"
+>
 	<Hero />
 	<OurTeam />
 </div>
-
-<style>
-	.bg-image {
-		background-image: url('/svgs/layout/home-bg.svg');
-	}
-</style>
