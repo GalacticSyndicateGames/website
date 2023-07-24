@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import Logo from '$lib/components/logo.svelte';
+
 	type Contact = {
 		href?: string;
 		name: string;
@@ -28,7 +29,9 @@
 	/>
 </svelte:head>
 
-<section class="bg-image relative min-h-screen w-full px-wrapper">
+<section class="bg-image relative min-h-screen w-full px-wrapper"
+  style="background-image: url({base}/svgs/layout/contact-bg.svg);"
+>
 	<h1 class="sr-only">Contact informations for Galactic Syndicate</h1>
 
 	<div
@@ -54,9 +57,3 @@
 		</ul>
 	</div>
 </section>
-
-<style>
-	.bg-image {
-		background-image: url('/svgs/layout/contact-bg.svg');
-	}
-</style>
