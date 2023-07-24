@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>About us</title>
+	<title>Home</title>
 	<meta name="description" content="Something something..." />
 </svelte:head>
 
@@ -13,5 +13,5 @@
   style="background-image: url('{base}/svgs/layout/home-bg.svg');"
 >
 	<Hero />
-	<OurTeam />
+  <OurTeam />
 </div>
