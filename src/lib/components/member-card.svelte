@@ -7,6 +7,8 @@
 </script>
 
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	import clsx from 'clsx';
 	export let member: Member;
 	export let align: 'left' | 'right';
@@ -33,6 +35,6 @@
 	</div>
 
 	<div class="aspect-square h-[500px] w-[500px] flex-shrink-0">
-		<img src={imgSrc} alt={`Portrait of ${member.name}, ${member.role}`} />
+		<img src="{imgSrc}" alt={`Portrait of ${member.name}, ${member.role}`} />
 	</div>
 </div>

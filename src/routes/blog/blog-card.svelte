@@ -1,5 +1,6 @@
 <script lang="ts">
-	import type { Post } from '$lib/types';
+	import { base } from '$app/paths';
+import type { Post } from '$lib/types';
 	export let post: Post;
 </script>
 
@@ -62,7 +63,7 @@
 			{post.description ?? ''}
 		</p>
 		<a
-			href={`/blog/posts/${post.slug}`}
+			href="{base}/blog/posts/{post.slug}"
 			class="rounded-full bg-blue px-10 py-2 font-aldrich text-4xl capitalize text-white transition-opacity hover:opacity-90"
 		>
 			Read more

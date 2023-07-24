@@ -7,6 +7,8 @@
 </script>
 
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	import clsx from 'clsx';
 	export let problem: Problem;
 	export let index: number;
@@ -19,7 +21,7 @@
 	)}
 >
 	<figure class="shrink-0">
-		<img src={problem.imgUrl} alt={problem.title} />
+		<img src={base + problem.imgUrl} alt={problem.title} />
 	</figure>
 
 	<div>

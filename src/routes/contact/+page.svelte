@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Logo from '$lib/components/logo.svelte';
 	type Contact = {
 		href?: string;
@@ -38,13 +39,13 @@
 			{#each contacts as c}
 				<li>
 					{#if c.href}
-						<a href={c.href} class="inline-flex items-center gap-8">
-							<img src={c.iconUrl} alt="" />
+						<a href="{base}{c.href}" class="inline-flex items-center gap-8">
+							<img src="{base}{c.iconUrl}" alt="" />
 							<span class="text-3xl">{c.name}</span>
 						</a>
 					{:else}
 						<div class="inline-flex items-center gap-8">
-							<img src={c.iconUrl} alt="" />
+							<img src="{base}{c.iconUrl}" alt="" />
 							<span class="text-3xl">{c.name}</span>
 						</div>
 					{/if}

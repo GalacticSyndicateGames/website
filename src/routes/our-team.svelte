@@ -1,5 +1,6 @@
 <script lang="ts">
-	import type { Member } from '$lib/components/member-card.svelte';
+	import { base } from '$app/paths';
+import type { Member } from '$lib/components/member-card.svelte';
 	import MemberCard from '$lib/components/member-card.svelte';
 
 	const team: Array<Member> = [
@@ -28,7 +29,7 @@
 				'Laszlo is an engineering leader who is keen on new technologies and methodologies that support software development. He thrives on creating and optimizing SLDC pipelines, including developer experience, release and testing infrastructure and monitoring solutions.'
 		},
 		{
-			name: 'Laszlo',
+			name: 'Ishai',
 			role: 'Software Engineer',
 			description:
 				'On an advisory level Ishai brings to us his extensive work experience in the tech industry. Ishai was the CEO & Founder of Growth Streak, Business Performance at Proteus Games, Business Growth Advisor at Lightricks, CPO at JOB TODAY, Senior Director, Product Management & Business Performance and Director, Product Management & Business Performance at King, Lead Product Manager, Senior Product Manager and Product Manager at Electronic Arts (EA), Co-Founder/Product Manager/Android Developer at CraveEat Mobile, Business Development Manager / Economy Manager at P-Kama, and Business Development Manager at Shidonni.. He also held a Strategic Review and Marketing Intelligence Project at Geoservices.  Ishai Shamir received their MBA from HEC Paris in 2009, specializing in Entrepreneurship. Ishai also obtained a Bachelor of Arts (BA) in Psychology and a Bachelor of Laws (LL.B.) from Tel Aviv University between 2002 and 2006.'
@@ -46,7 +47,7 @@
 				<MemberCard
 					member={m}
 					align={i % 2 ? 'left' : 'right'}
-					imgSrc={`/images/team/member-${i + 1}.png`}
+					imgSrc="{base}/images/team/member-{i+1}.png"
 				/>
 			</li>
 		{/each}

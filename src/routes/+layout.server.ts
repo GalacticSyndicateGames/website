@@ -4,6 +4,8 @@ import type { LayoutServerLoad } from './$types';
 // it so that it gets served as a static asset in production
 export const prerender = true;
 
+export const trailingSlash = 'always';
+
 export const load: LayoutServerLoad = async ({ url }) => {
 	return {
 		url: url.pathname

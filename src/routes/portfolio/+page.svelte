@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 	import ProblemList from './problem-list.svelte';
 </script>
 
@@ -8,7 +9,8 @@
 </svelte:head>
 
 <section
-	class="bg-image flex h-screen w-full flex-col items-center justify-end"
+	class="flex h-screen w-full flex-col items-center justify-end"
+  style="background-image: url('{base}/svgs/layout/portfolio-bg.svg');"
 >
 	<div class="pb-12">
 		<h1
@@ -21,19 +23,15 @@
 		</h1>
 	</div>
 </section>
+
 <ProblemList />
+
 <section class="flex items-center justify-center bg-white">
 	<ul class="flex flex-wrap space-y-4 py-8">
 		{#each { length: 8 } as _, i (i)}
 			<li>
-				<img src={`/svgs/companies/comp-${i + 1}.svg`} alt="title" />
+				<img src="{base}/svgs/companies/comp-{i+1}.svg" alt="title" />
 			</li>
 		{/each}
 	</ul>
 </section>
-
-<style>
-	.bg-image {
-		background-image: url('/svgs/layout/portfolio-bg.svg');
-	}
-</style>

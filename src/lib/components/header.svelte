@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+	import { base } from "$app/paths";
+
 	const paths = [
 		{
 			title: 'About us',
@@ -17,6 +19,7 @@
 			href: '/contact'
 		}
 	];
+  console.log(base)
 </script>
 
 <header
@@ -24,7 +27,7 @@
 >
 	<nav class="space-x-8">
 		{#each paths as p}
-			<a href={p.href} class="font-aldrich text-4xl uppercase text-yellow"
+			<a href="{base}{p.href}" class="font-aldrich text-4xl uppercase text-yellow"
 				>{p.title}</a
 			>
 		{/each}

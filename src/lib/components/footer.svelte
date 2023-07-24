@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 	import Logo from './logo.svelte';
 
 	const socials = [
@@ -29,8 +30,8 @@
 		<ul class="flex w-full justify-between">
 			{#each socials as s}
 				<li>
-					<a href={s.href}>
-						<img alt={s.title} src={s.iconPath} class="aspect-square w-20" />
+					<a href="{s.href}">
+						<img src="{base}{s.iconPath}" alt={s.title} class="aspect-square w-20" />
 					</a>
 				</li>
 			{/each}
@@ -38,7 +39,7 @@
 	</nav>
 	<img
 		class="absolute -right-48 top-0 h-full"
-		src="/svgs/layout/footer-planet.svg"
+		src="{base}/svgs/layout/footer-planet.svg"
 		alt="A Pink planet floating away"
 	/>
 </footer>
