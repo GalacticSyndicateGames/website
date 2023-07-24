@@ -29,7 +29,7 @@
 	/>
 </svelte:head>
 
-<section class="bg-image relative min-h-screen w-full px-wrapper"
+<section class="relative min-h-screen w-full px-wrapper"
   style="background-image: url({base}/svgs/layout/contact-bg.svg);"
 >
 	<h1 class="sr-only">Contact informations for Galactic Syndicate</h1>

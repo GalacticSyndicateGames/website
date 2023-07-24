@@ -22,7 +22,7 @@
 </script>
 
 <footer
-	class="relative flex h-96 w-full items-center gap-40 overflow-x-hidden bg-navy px-wrapper"
+	class="relative flex h-72 w-full items-center gap-40 overflow-x-hidden bg-navy px-wrapper"
 >
 	<Logo />
 	<nav class="w-fit space-y-4">
