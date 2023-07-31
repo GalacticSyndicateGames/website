@@ -19,8 +19,8 @@
 	},
 	"lint-staged": {
 		"src/**/*.{js,ts,svelte,md}": [
-			"pnpm dlx prettier --write",
-			"pnpm dlx eslint --fix"
+			"pnpm exec prettier --write",
+			"pnpm exec eslint --fix"
 		]
 	},
 	"devDependencies": {
