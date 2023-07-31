@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-import type { Member } from '$lib/components/member-card.svelte';
+  import type { Member } from '$lib/components/member-card.svelte';
 	import MemberCard from '$lib/components/member-card.svelte';
 
 	const team: Array<Member> = [
@@ -32,9 +32,9 @@ import type { Member } from '$lib/components/member-card.svelte';
 </script>
 
 <section
-	class="mx-auto flex min-h-screen max-w-screen-2xl flex-col items-center justify-start gap-40 py-28"
+	class="mx-auto px-wrapper flex min-h-screen w-full max-w-screen-2xl flex-col items-center justify-start gap-4 md:gap-20 xl:gap-40 py-28"
 >
-	<h2 class="font-aldrich text-7xl uppercase text-blue">Our team</h2>
+	<h2 class="font-aldrich text-2xl md:text-4xl xl:text-7xl uppercase text-blue">Our team</h2>
 	<ul class="space-y-16">
 		{#each team as m, i}
 			<li>

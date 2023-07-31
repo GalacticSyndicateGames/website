@@ -22,24 +22,30 @@
 </script>
 
 <footer
-	class="relative flex h-72 w-full items-center gap-40 overflow-x-hidden bg-navy px-wrapper"
+	class="relative w-ful flex h-24 md:h-44 xl:h-72 w-full justify-center items-center gap-4 xl:gap-40 overflow-x-hidden bg-navy px-wrapper"
 >
-	<Logo />
-	<nav class="w-fit space-y-4">
-		<h2 class="font-aldrich text-5xl uppercase">Social media</h2>
-		<ul class="flex w-full justify-between">
+  <div class="left-6 absolute w-fit h-full inline-flex items-center justify-center">
+    <Logo/>
+  </div>
+
+	<nav class="w-fit  xl:space-y-4 flex flex-col">
+		<h2 class="font-aldrich text-sm md:text-2xl xl:text-5xl uppercase">
+			Social&nbsp;media
+		</h2>
+		<ul class="flex w-full justify-between gap-x-2 xl:gap-x-16">
 			{#each socials as s}
-				<li>
-					<a href="{s.href}">
-						<img src="{base}{s.iconPath}" alt={s.title} class="aspect-square w-20" />
+				<li class="">
+					<a href={s.href}>
+						<img src="{base}{s.iconPath}" alt={s.title}  class="aspect-square w-6 h-6  md:w-12 md:h-12  xl:w-20 xl:h-20"/>
 					</a>
 				</li>
 			{/each}
 		</ul>
 	</nav>
-	<img
-		class="absolute -right-48 top-0 h-full"
+
+	 <img
+		class="-right-[10%] absolute h-full " 
 		src="{base}/svgs/layout/footer-planet.svg"
 		alt="A Pink planet floating away"
-	/>
+	/> 
 </footer>

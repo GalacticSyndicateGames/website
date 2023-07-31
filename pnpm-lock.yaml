@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@fontsource/aldrich':
     specifier: ^5.0.5
@@ -14,6 +10,9 @@ dependencies:
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
+  svelte-fast-marquee:
+    specifier: ^0.4.1
+    version: 0.4.1
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -2458,6 +2457,10 @@ packages:
       svelte: 4.0.5
     dev: true
 
+  /svelte-fast-marquee@0.4.1:
+    resolution: {integrity: sha512-M5fqQlFZZugoUQo6mOrer0QSe+XTmJnX4x+06x6S07Wlvy0dA8P9xjajPv8QymJgTCMVGHiv2KN16MgIp6JU/g==}
+    dev: false
+
   /svelte-hmr@0.15.2(svelte@4.0.5):
     resolution: {integrity: sha512-q/bAruCvFLwvNbeE1x3n37TYFb3mTBJ6TrCq6p2CoFbSTNhDE9oAtEfpy+wmc9So8AG0Tja+X0/mJzX9tSfvIg==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
@@ -2778,3 +2781,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

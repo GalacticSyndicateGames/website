@@ -18,6 +18,7 @@ export default {
 			colors: {
 				yellow: '#DFA736',
 				blue: '#3F94C7',
+				lightBlue: '#0075BE',
 				navy: '#004A8D',
 				pistachio: '#8BD36F',
 				sky: '#7AC7D7',
@@ -26,9 +27,11 @@ export default {
 				siena: '#E86B42'
 			},
 			spacing: {
-				headerHeight: '7rem',
-				headerHeightDouble: '14rem',
-				wrapper: '4rem'
+				headerHeightSm: '4rem',
+				headerHeightMd: '5rem',
+				headerHeightXl: '7rem',
+				headerHeightDouble: '14rem'
+				//wrapper: '4rem'
 			},
 			borderRadius: {
 				'4xl': '4rem'

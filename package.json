@@ -53,6 +53,7 @@
 	"dependencies": {
 		"@fontsource/aldrich": "^5.0.5",
 		"@fontsource/anonymous-pro": "^5.0.5",
-		"clsx": "^2.0.0"
+		"clsx": "^2.0.0",
+		"svelte-fast-marquee": "^0.4.1"
 	}
 }

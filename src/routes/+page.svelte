@@ -10,8 +10,8 @@
 </svelte:head>
 
 <div
-  style="background-image: url('{base}/svgs/layout/home-bg.svg');"
+  class="bg-black"
 >
 	<Hero />
-  <OurTeam />
+  <OurTeam/>
 </div>
