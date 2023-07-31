@@ -41,7 +41,7 @@
 	];
 </script>
 
-<section class="bg-white text-black">
+<section class="bg-white text-black px-wrapper ">
 	<ul class="mx-auto w-full max-w-screen-2xl space-y-28 py-28">
 		{#each data as d, i}
 			<li>
