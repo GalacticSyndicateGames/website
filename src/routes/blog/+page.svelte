@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { base } from '$app/paths';
 	import BlogCard from './blog-card.svelte';
 
@@ -10,21 +10,19 @@
 </svelte:head>
 
 <section
-	class="bg-image min-h-screen w-full bg-white text-black"
-	style="background-image: url({base}/svgs/layout/blog-bg.svg); background-repeat: no-repeat;"
+	class="w-full bg-contain bg-top bg-no-repeat xl:bg-auto"
+	style="background-image: url({base}/svgs/layout/blog-bg.svg)"
 >
-	<ul class="z-20 mx-auto w-full max-w-screen-xl space-y-40 pb-40 pt-[50vh]">
+	<ul
+		class="px-wrapper container mx-auto flex min-h-screen w-full flex-col items-center gap-y-12 pb-12 pt-[20vh] md:pt-[30vh] xl:gap-y-40 xl:pt-[40vh]"
+	>
 		{#each data.posts as p, i (i)}
-			<li>
-				<BlogCard post={p} />
-			</li>
+			<BlogCard post={p} />
+			<BlogCard post={p} />
+			<BlogCard post={p} />
+			<BlogCard post={p} />
+			<BlogCard post={p} />
+			<BlogCard post={p} />
 		{/each}
 	</ul>
 </section>
-
-<style>
-	.bg-image {
-		background-image: url('');
-		background-repeat: no-repeat;
-	}
-</style>

@@ -1,7 +1,7 @@
 ---
 author: John Doe
 title: First Post
-description: something something
+description: This a description about somethuing sillz stuff
 date: '2023-07-18'
 published: true
 ---

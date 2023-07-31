@@ -1,70 +1,41 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-import type { Post } from '$lib/types';
+	import type { Post } from '$lib/types';
 	export let post: Post;
 </script>
 
-<article class="flex gap-x-12">
-	<svg
-		class="aspect-square w-[525px] shrink-0"
-		viewBox="0 0 526 526"
-		fill="none"
-		xmlns="http://www.w3.org/2000/svg"
-	>
-		<path
-			d="M87.625 408.917H438.125L328.594 262.875L240.969 379.708L175.25 292.083L87.625 408.917ZM0 525.75V0H525.75V525.75H0ZM58.4167 467.333H467.333V58.4167H58.4167V467.333Z"
-			fill="#545454"
-		/>
-	</svg>
-	<div class="flex flex-col items-start justify-start gap-8">
-		<div class="flex gap-4">
-			<svg
-				width="66"
-				height="66"
-				viewBox="0 0 66 66"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path
-					fill-rule="evenodd"
-					clip-rule="evenodd"
-					d="M33 62.7C49.4026 62.7 62.7 49.4026 62.7 33C62.7 16.5973 49.4026 3.3 33 3.3C16.5973 3.3 3.3 16.5973 3.3 33C3.3 49.4026 16.5973 62.7 33 62.7ZM33 66C51.2259 66 66 51.2259 66 33C66 14.7741 51.2259 0 33 0C14.7741 0 0 14.7741 0 33C0 51.2259 14.7741 66 33 66Z"
-					fill="#545454"
-				/>
-				<path
-					d="M13.2002 52.1895C13.2002 50.485 14.474 49.0446 16.1702 48.8565C28.8999 47.4474 37.1582 47.5744 49.8599 48.8878C50.4942 48.9545 51.0953 49.2043 51.5899 49.607C52.0845 50.0096 52.4512 50.5476 52.6451 51.1551C52.839 51.7627 52.8517 52.4136 52.6818 53.0283C52.5118 53.643 52.1665 54.1949 51.6881 54.6166C36.6978 67.683 28.131 67.5031 14.2562 54.6298C13.5797 54.0028 13.2002 53.1102 13.2002 52.1895Z"
-					fill="#545454"
-				/>
-				<path
-					fill-rule="evenodd"
-					clip-rule="evenodd"
-					d="M49.6896 50.5279C37.0885 49.2244 28.9491 49.1023 16.3497 50.4966C15.9349 50.5449 15.5526 50.7445 15.2758 51.0572C14.9991 51.3699 14.8474 51.7736 14.8498 52.1911C14.8498 52.663 15.0462 53.1102 15.3778 53.4204C22.255 59.7993 27.4657 62.6818 32.5593 62.7C37.671 62.7181 43.1622 59.8587 50.6037 53.3742C50.8401 53.1638 51.0103 52.8892 51.0935 52.5839C51.1768 52.2785 51.1696 51.9556 51.0728 51.6543C50.976 51.353 50.7937 51.0863 50.5481 50.8866C50.3026 50.6869 50.0043 50.5613 49.6896 50.5279ZM15.9883 47.2164C28.8517 45.7924 37.2304 45.9211 50.0311 47.2461C50.9853 47.3457 51.8898 47.7213 52.6338 48.3271C53.3778 48.9328 53.929 49.7423 54.22 50.6565C54.511 51.5706 54.5292 52.5498 54.2722 53.4742C54.0153 54.3985 53.4944 55.2279 52.7734 55.8607C45.2247 62.4409 38.9382 66.0247 32.5494 66C26.1424 65.9769 20.1331 62.332 13.1355 55.8393C12.6344 55.3726 12.235 54.8077 11.9622 54.1797C11.6894 53.5517 11.549 52.8742 11.5498 52.1895C11.5474 50.9593 11.9989 49.7715 12.8179 48.8535C13.6369 47.9356 14.7658 47.3537 15.9883 47.2164Z"
-					fill="#545454"
-				/>
-				<path
-					d="M46.1998 26.4C46.1998 29.9009 44.8091 33.2583 42.3336 35.7338C39.8581 38.2093 36.5007 39.6 32.9998 39.6C29.4989 39.6 26.1415 38.2093 23.666 35.7338C21.1905 33.2583 19.7998 29.9009 19.7998 26.4C19.7998 22.8991 21.1905 19.5417 23.666 17.0662C26.1415 14.5907 29.4989 13.2 32.9998 13.2C36.5007 13.2 39.8581 14.5907 42.3336 17.0662C44.8091 19.5417 46.1998 22.8991 46.1998 26.4Z"
-					fill="#545454"
-				/>
-				<path
-					fill-rule="evenodd"
-					clip-rule="evenodd"
-					d="M32.9998 36.3C35.6254 36.3 38.1436 35.257 40.0002 33.4004C41.8568 31.5437 42.8998 29.0256 42.8998 26.4C42.8998 23.7744 41.8568 21.2563 40.0002 19.3996C38.1436 17.543 35.6254 16.5 32.9998 16.5C30.3742 16.5 27.8561 17.543 25.9994 19.3996C24.1428 21.2563 23.0998 23.7744 23.0998 26.4C23.0998 29.0256 24.1428 31.5437 25.9994 33.4004C27.8561 35.257 30.3742 36.3 32.9998 36.3ZM32.9998 39.6C36.5007 39.6 39.8581 38.2093 42.3336 35.7338C44.8091 33.2583 46.1998 29.9009 46.1998 26.4C46.1998 22.8991 44.8091 19.5417 42.3336 17.0662C39.8581 14.5907 36.5007 13.2 32.9998 13.2C29.4989 13.2 26.1415 14.5907 23.666 17.0662C21.1905 19.5417 19.7998 22.8991 19.7998 26.4C19.7998 29.9009 21.1905 33.2583 23.666 35.7338C26.1415 38.2093 29.4989 39.6 32.9998 39.6Z"
-					fill="#545454"
-				/>
-			</svg>
+<article
+	class="grid h-fit grid-cols-2 grid-rows-1 gap-x-4 text-black md:h-80 md:gap-x-8 xl:h-[32rem] xl:gap-x-12"
+>
+	<div class="aspect-square h-full place-self-end rounded-xl bg-gray-500" />
 
-			<div class="font-aldrich">
-				<p class="text-3xl">{post.author ?? ''}</p>
-				<p class="text-2xl">{post.date ?? ''}</p>
+	<div
+		class="flex aspect-square h-full flex-col items-start justify-between place-self-start"
+	>
+		<div class="space-y-2 xl:space-y-5">
+			<div class="flex gap-4">
+				<img
+					class=" md:w-8 xl:w-16"
+					src="{base}/svgs/icons/avatar.svg"
+					alt="Author"
+				/>
+
+				<div class="font-aldrich">
+					<p class=" text-xs md:text-base xl:text-3xl">{post.author ?? ''}</p>
+					<p class=" text-xs md:text-base xl:text-2xl">{post.date ?? ''}</p>
+				</div>
 			</div>
+			<h3 class=" font-aldrich text-base text-blue md:text-3xl xl:text-6xl">
+				{post.title ?? ''}
+			</h3>
+			<p class=" font-anonymous text-base leading-3 md:text-xl xl:text-3xl">
+				{post.description ?? ''}
+			</p>
 		</div>
-		<h3 class="font-aldrich text-6xl text-blue">{post.title ?? ''}</h3>
-		<p class="font-anonymous text-3xl">
-			{post.description ?? ''}
-		</p>
+
 		<a
 			href="{base}/blog/posts/{post.slug}"
-			class="rounded-full bg-blue px-10 py-2 font-aldrich text-4xl capitalize text-white transition-opacity hover:opacity-90"
+			class="rounded-full bg-blue px-6 py-0 font-aldrich text-base uppercase text-white transition-opacity hover:opacity-90 md:py-1 md:text-2xl xl:py-2 xl:text-4xl"
 		>
 			Read more
 		</a>

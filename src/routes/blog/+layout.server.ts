@@ -19,8 +19,8 @@ export const load: LayoutServerLoad = async () => {
 		//should be +page.md
 		const md = parts[parts.length - 1];
 
-		//we need to have every .md file under posts/title-of-post/+page.md
-		//so a file like posts/some-post.md isn't be valid
+		//valid:   posts/title-of-post/+page.md
+		//invalid: posts/title-of-post.md
 		if (parts.length < 7 || (md && '+' !== md.at(0))) {
 			break;
 		}
