@@ -23,6 +23,7 @@ export default {
 				lightBlue: '#0075BE',
 				navy: '#004A8D',
 				darkNavy: '#06467B',
+				evenDarkerNavy: '#0D2853',
 
 				pistachio: '#8BD36F',
 				sky: '#7AC7D7',
