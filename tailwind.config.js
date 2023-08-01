@@ -17,9 +17,13 @@ export default {
 			},
 			colors: {
 				yellow: '#DFA736',
+
 				blue: '#3F94C7',
+				babyBlue: '#BCE1EF',
 				lightBlue: '#0075BE',
 				navy: '#004A8D',
+				darkNavy: '#06467B',
+
 				pistachio: '#8BD36F',
 				sky: '#7AC7D7',
 				peach: '#FBA793',

@@ -35,7 +35,7 @@
 
 		<a
 			href="{base}/blog/posts/{post.slug}"
-			class="rounded-full bg-blue px-6 py-0 font-aldrich text-base uppercase text-white transition-opacity hover:opacity-90 md:py-1 md:text-2xl xl:py-2 xl:text-4xl"
+			class="rounded-full bg-blue px-6 py-1 font-aldrich text-base uppercase text-white transition-opacity hover:opacity-90 md:py-2 md:text-2xl xl:text-4xl"
 		>
 			Read more
 		</a>

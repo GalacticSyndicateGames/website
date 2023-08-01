@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-*,p {
-	line-height: 90%;
-}
-
+/* Some utility classes, which provide responsive spacing based on values inside `tailwindcss.config.js` */
 @layer base {
+	* {
+		@apply tracking-tight;
+	}
+
 	.px-wrapper {
 		@apply px-4 md:px-8 xl:px-14;
 	}
@@ -23,5 +24,13 @@
 
 	.pt-headerHeight {
 		@apply pt-headerHeightSm md:pt-headerHeightMd xl:pt-headerHeightXl;
+	}
+
+	.pb-headerHeight {
+		@apply pb-headerHeightSm md:pb-headerHeightMd xl:pb-headerHeightXl;
+	}
+
+	.py-headerHeight {
+		@apply py-headerHeightSm md:py-headerHeightMd xl:py-headerHeightXl;
 	}
 }
