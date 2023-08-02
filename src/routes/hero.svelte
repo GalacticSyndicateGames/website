@@ -1,25 +1,32 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Logo from '$lib/components/logo.svelte';
 </script>
 
 <section
-	class="xl:h-screen flex w-full flex-col items-start justify-between overflow-x-hidden p-wrapper pb-2 pt-headerHeight gap-36 xl:gap-0"
+	class="p-wrapper pt-headerHeight relative flex w-full flex-col items-start justify-between gap-36 overflow-x-hidden pb-2 xl:h-screen xl:gap-0"
 >
-  <div class="text-justify after:content-[''] inline-block w-fit">
-	  <Logo />
-    <p class="text-[100%] capitalize font-anonymous font-semibold">Mobile game Development</p>
-  </div>
+	<div class="inline-block w-fit text-justify after:content-['']">
+		<Logo />
+		<p
+			class="-mt-1 ml-1 font-anonymous text-sm font-semibold capitalize drop-shadow-md md:-mt-3 md:ml-2 md:text-2xl lg:ml-3 xl:-mt-4 xl:ml-4 xl:text-4xl"
+		>
+			Mobile Game Development
+		</p>
+	</div>
 
-	<div class="z-10 flex flex-col items-start justify-between gap-10">
-		<h1 class="font-semibold font-anonymous text-2xl md:text-3xl xl:text-6xl capitalize">
+	<div class="z-10 flex w-full flex-col items-start justify-between gap-10">
+		<h1
+			class="font-anonymous text-2xl font-semibold capitalize md:text-3xl xl:text-6xl"
+		>
 			Partnering<br />
 			With Intent
 		</h1>
 
 		<p
-			class="inline-flex flex-col leading-none  font-anonymous text-center md:text-left text-sm  md:text-xl "
+			class="self-center md:self-auto inline-flex w-full max-w-sm flex-col text-center font-anonymous text-sm leading-none drop-shadow-md md:max-w-lg md:text-left md:text-xl"
 		>
-			<span class="drop-shadow-md">
+			<span class="">
 				Our Quality Execution Focusing On Your KPIs <br />
 				Our Experience Focused To Deliver On Your KPIs <br />
 				Your KPIs, Our Experience: Quality Execution

@@ -6,12 +6,11 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Something something..." />
 </svelte:head>
 
 <div
-  class="bg-black"
+	class="bg-fill bg-black bg-[url('/svgs/layout/home-bg-mobile.svg')] bg-no-repeat bg-contain md:bg-auto  md:bg-[url('/svgs/layout/home-bg.svg')]"
 >
 	<Hero />
-  <OurTeam/>
+	<OurTeam />
 </div>
