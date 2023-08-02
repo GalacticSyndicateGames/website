@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import { fade, slide } from 'svelte/transition';
 
-	const paths = [
+	const paths: Array<{title:string, href:string}> = [
 		{
 			title: 'About us',
 			href: '/'
@@ -14,6 +14,10 @@
 		{
 			title: 'Blog',
 			href: '/blog'
+		},
+		{
+			title: 'Career',
+			href: '/career'
 		},
 		{
 			title: 'Contact',
