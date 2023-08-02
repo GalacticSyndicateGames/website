@@ -7,7 +7,7 @@
 	const data: Array<Problem> = [
 		{
 			title: 'Product Development',
-			body: 'You have a project, idea, initiative that has a significant impact on your business but don’t have the resources available to execute it.  You want someone to manage and deliver the project with a competent team, work with you as a partner, taking risks, offering proposals for solutions, shaping a shared understanding and the opportunity definition with you.',
+			body: 'You have a project, idea, initiative that has a significant impact on your business but don’t have the resources available to execute it.  You want someone to manage and deliver the project with a competent team, work with you as a partner, taking risks, offering proposals for solutions, shaping a shared understanding and the opportunity definition with you.',
 			imgUrl: '/svgs/problems/problem-1.svg'
 		},
 		{
