@@ -25,7 +25,8 @@ const config = {
 		adapter: adapter(),
 		paths: {
 			//This should always match the name of the repository
-			base: isDev ? '' : '/website'
+			//base: isDev ? '' : '/website'
+			base: ''
 		}
 	}
 };
