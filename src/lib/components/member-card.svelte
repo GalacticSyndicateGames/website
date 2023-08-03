@@ -3,13 +3,13 @@
 		name: string;
 		role: string;
 		description: string;
+    imgSrc: string;
 	};
 </script>
 
 <script lang="ts">
 	export let member: Member;
 	export let align: 'left' | 'right';
-	export let imgSrc: string;
 </script>
 
 <div class="flex flex-col md:gap-8">
@@ -18,7 +18,7 @@
 		<div
 			class="aspect-square h-[180px] w-[180px] xl:h-[500px] xl:w-[500px] flex-shrink-0"
 		>
-			<img src={imgSrc} alt={`Portrait of ${member.name}, ${member.role}`} />
+			<img src={member.imgSrc} alt={`Portrait of ${member.name}, ${member.role}`} />
 		</div>
 
 		<div class="w-full flex flex-col items-center {align === 'left' ? 'md:items-start' : 'md:items-end'}">
