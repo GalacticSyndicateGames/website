@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Galactic Syndicate</title>
 </svelte:head>
 
 <div

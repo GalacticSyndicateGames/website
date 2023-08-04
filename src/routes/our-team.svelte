@@ -37,13 +37,6 @@
       description: 'Betti has a remarkable ability to identify exceptional talents. She has worked with global companies including Cloudera and GitLab to assemble winning teams that thrive on creative problem solving. Her emphasis on fostering a culture of innovation and driving efficiency has made a significant impact on the success of the organizations she has worked with.'
 
     },
-		{
-			name: 'Ishai',
-			role: 'Advisor',
-      imgSrc: '/images/team/ishai.png',
-			description:
-				'On an advisory level Ishai brings to us his extensive work experience in the tech industry. Ishai was the CEO & Founder of Growth Streak, Business Performance at Proteus Games, Business Growth Advisor at Lightricks, CPO at JOB TODAY, Senior Director, Product Management & Business Performance and Director, Product Management & Business Performance at King, Lead Product Manager, Senior Product Manager and Product Manager at Electronic Arts (EA), Co-Founder/Product Manager/Android Developer at CraveEat Mobile, Business Development Manager / Economy Manager at P-Kama, and Business Development Manager at Shidonni.. He also held a Strategic Review and Marketing Intelligence Project at Geoservices.  Ishai Shamir received their MBA from HEC Paris in 2009, specializing in Entrepreneurship. Ishai also obtained a Bachelor of Arts (BA) in Psychology and a Bachelor of Laws (LL.B.) from Tel Aviv University between 2002 and 2006.'
-		},
     {
       name: 'Andras',
       role: 'Engineer',
@@ -61,7 +54,14 @@
       role: 'Engineer',
       imgSrc: '/images/team/alex.png',
       description: 'Alex is a passionate software engineer, striving for efficiency in his work. His journey began in high school, where he learned programming, and it has led him to experiment with all kinds of coding. He finds joy in developing optimized solutions for backend services and internal tools.'
-    }
+    },
+		{
+			name: 'Ishai',
+			role: 'Advisor',
+      imgSrc: '/images/team/ishai.png',
+			description:
+				'On an advisory level Ishai brings to us his extensive work experience in the tech industry. Ishai was the CEO & Founder of Growth Streak, Business Performance at Proteus Games, Business Growth Advisor at Lightricks, CPO at JOB TODAY, Senior Director, Product Management & Business Performance and Director, Product Management & Business Performance at King, Lead Product Manager, Senior Product Manager and Product Manager at Electronic Arts (EA), Co-Founder/Product Manager/Android Developer at CraveEat Mobile, Business Development Manager / Economy Manager at P-Kama, and Business Development Manager at Shidonni.. He also held a Strategic Review and Marketing Intelligence Project at Geoservices.  Ishai Shamir received their MBA from HEC Paris in 2009, specializing in Entrepreneurship. Ishai also obtained a Bachelor of Arts (BA) in Psychology and a Bachelor of Laws (LL.B.) from Tel Aviv University between 2002 and 2006.'
+		},
 	];
 </script>
 
