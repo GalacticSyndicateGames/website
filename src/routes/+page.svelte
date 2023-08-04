@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div
-	class="bg-fill bg-black bg-[url('/svgs/layout/home-bg-mobile.svg')] bg-no-repeat bg-contain md:bg-auto  md:bg-[url('/svgs/layout/home-bg.svg')]"
+	class=" bg-[url('/svgs/layout/home-bg-mobile.svg')] bg-black bg-contain bg-no-repeat md:bg-[url('/svgs/layout/home-bg.svg')] md:bg-auto 4xl:bg-contain"
 >
 	<Hero />
 	<OurTeam />
