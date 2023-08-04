@@ -1,24 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import Logo from '$lib/components/logo.svelte';
-
-	type Contact = {
-		href?: string;
-		name: string;
-		iconUrl: string;
-	};
-
-	const contacts: Array<Contact> = [
-		{
-			href: '',
-			name: 'info@galacticsyn.com',
-			iconUrl: '/svgs/icons/mail.svg'
-		},
-		{
-			name: '+ 1 510 213 1505',
-			iconUrl: '/svgs/icons/phone.svg'
-		}
-	];
 </script>
 
 <svelte:head>
@@ -29,8 +10,9 @@
 	/>
 </svelte:head>
 
-<section class="relative min-h-screen w-full px-wrapper"
-  style="background-image: url({base}/svgs/layout/contact-bg.svg);"
+<section
+	class="px-wrapper relative min-h-screen w-full"
+	style="background-image: url(/svgs/layout/contact-bg.svg);"
 >
 	<h1 class="sr-only">Contact informations for Galactic Syndicate</h1>
 
@@ -39,21 +21,13 @@
 	>
 		<Logo />
 		<ul class="flex flex-col items-start justify-start gap-y-2">
-			{#each contacts as c}
-				<li>
-					{#if c.href}
-						<a href="{base}{c.href}" class="inline-flex items-center gap-8">
-							<img src="{base}{c.iconUrl}" alt="" />
-							<span class="text-3xl">{c.name}</span>
-						</a>
-					{:else}
-						<div class="inline-flex items-center gap-8">
-							<img src="{base}{c.iconUrl}" alt="" />
-							<span class="text-3xl">{c.name}</span>
-						</div>
-					{/if}
-				</li>
-			{/each}
+			<a
+				href="mailto:info@galacticsyn.com"
+				class="inline-flex items-center gap-8"
+			>
+				<img src="/svgs/icons/mail.svg" alt="mail" />
+				<span class="text-3xl">info@galacticsyn.com</span>
+			</a>
 		</ul>
 	</div>
 </section>
