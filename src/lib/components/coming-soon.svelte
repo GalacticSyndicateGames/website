@@ -1,10 +1,6 @@
-<script>
-	import { base } from '$app/paths';
-</script>
-
 <section
-	class="h-screen w-full bg-contain bg-top bg-no-repeat xl:bg-auto"
-	style="background-image: url({base}/svgs/layout/blog-bg.svg)"
+	class="h-screen w-full bg-top bg-no-repeat bg-contain 2xl:bg-cover"
+	style="background-image: url(/svgs/layout/blog-bg.svg)"
 >
 	<div class="flex h-full w-full flex-col items-center justify-center gap-4">
 		<h1 class="font-aldrich text-4xl text-darkNavy md:text-5xl xl:text-7xl">
