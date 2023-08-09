@@ -37,7 +37,7 @@
 		},
 		{
 			title: 'Crypto',
-			body: 'Want to create a web3 offering and you need someone who has launched NFTs, figured out how to manage…',
+			body: 'You want to create a web3 offering and you need someone who has launched NFTs and has some best practices in the complex and rapid changing world of Web3.',
 			imgUrl: '/svgs/problems/problem-7.svg'
 		}
 	];
@@ -77,7 +77,7 @@
 <section class="flex items-center justify-center bg-white">
 	<Marquee play={true} direction={'left'} speed={40}>
 		<ul class="flex flex-wrap items-center gap-4 space-y-4 py-8">
-			{#each { length: 8 } as _, i (i)}
+			{#each { length: 6 } as _, i (i)}
 				<li>
 					<img
 						class="xl:auto h-16 md:h-28"
