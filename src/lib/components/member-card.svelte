@@ -13,10 +13,10 @@
 </script>
 
 <div class="flex flex-col md:gap-8">
-	<div class="flex flex-col items-start md:gap-x-6 xl:gap-x-12 {align ==='left' ? 'md:flex-row' : 'md:flex-row-reverse'}">
+	<div class="flex flex-col items-center md:items-start md:gap-x-6 xl:gap-x-12 {align ==='left' ? 'md:flex-row' : 'md:flex-row-reverse'}">
 
 		<div
-			class="aspect-square h-[180px] w-[180px] xl:h-[500px] xl:w-[500px] flex-shrink-0"
+			class="aspect-square h-[180px] w-[180px] md:w-[250px] md:h-[250px] xl:h-[500px] xl:w-[500px] flex-shrink-0"
 		>
 			<img src={member.imgSrc} alt={`Portrait of ${member.name}, ${member.role}`} />
 		</div>
