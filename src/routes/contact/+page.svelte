@@ -10,24 +10,34 @@
 	/>
 </svelte:head>
 
-<section
+<!-- <section
 	class="px-wrapper relative min-h-screen w-full bg-no-repeat bg-center 3xl:bg-cover"
   style="background-image: url('/svgs/layout/contact-bg.svg')"
+> -->
+<section
+	class="flex  items-center justify-end px-wrapper relative min-h-screen max-w-screen overflow-hidden bg-[url('/svgs/layout/contact-bg.svg')]  3xl:bg-cover"
 >
 	<h1 class="sr-only">Contact informations for Galactic Syndicate</h1>
 
 	<div
-		class="absolute right-0 top-0 flex h-full w-fit flex-col items-center justify-center gap-y-8"
+		class="flex h-full w-fit flex-col items-start justify-center gap-y-4 md:gap-y-6 xl:gap-y-8"
 	>
-		<Logo />
-		<ul class="flex flex-col items-start justify-start gap-y-2">
+    <img class="w-56 md:w-72 lg:w-96 xl:w-[34rem]" src="/svgs/logo.svg" alt="Logo of the company">
+		<ul class="md:ml-4 flex flex-col items-start justify-start gap-y-2">
 			<a
 				href="mailto:info@galacticsyn.com"
-				class="inline-flex items-center gap-8"
+				class="inline-flex items-center gap-4 xl:gap-8"
 			>
 				<img src="/svgs/icons/mail.svg" alt="mail" />
-				<span class="text-3xl">info@galacticsyn.com</span>
+				<span class="text-lg md:text-2xl xl:text-3xl">info@galacticsyn.com</span>
 			</a>
 		</ul>
 	</div>
 </section>
+
+<style>
+	section {
+    background-position-x: 65%;
+    background-repeat: no-repeat;
+	}
+</style>
