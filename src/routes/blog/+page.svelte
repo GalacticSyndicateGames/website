@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Blog | Galactic Syndicate</title>
 </svelte:head>
 
 <ComingSoon />
