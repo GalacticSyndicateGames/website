@@ -38,18 +38,12 @@
 	function handlePress(e: KeyboardEvent) {
 		if (e.key === 'Enter') toggle();
 	}
-
-	export let navFullWidth: boolean;
 </script>
 
 <header
 	class="h-headerHeight px-wrapper absolute left-0 top-0 z-20 flex w-full items-center justify-start bg-transparent"
 >
-	<nav
-		class="hidden items-center gap-x-8 xl:flex {navFullWidth
-			? 'justify-between'
-			: 'justify-start'} w-full"
-	>
+	<nav class="hidden w-full items-center justify-start gap-x-8 xl:flex">
 		{#each paths as p}
 			<a href={p.href} class="font-aldrich text-3xl uppercase text-yellow"
 				>{p.title}</a

@@ -19,7 +19,7 @@
 </svelte:head>
 
 <div class="text-white">
-	<Header navFullWidth={data.url != '/'} />
+	<Header />
 	{#key data.url}
 		<main in:fly={{ duration: 400 }} out:fly={{ duration: 100 }}>
 			<slot />
