@@ -76,11 +76,11 @@
 
 <section class="flex items-center justify-center bg-white">
 	<Marquee play={true} direction={'left'} speed={40}>
-		<ul class="flex flex-wrap items-center gap-4 space-y-4 py-8">
-			{#each { length: 6 } as _, i (i)}
+		<ul class="flex items-center justify-center gap-4 space-y-4 py-8">
+			{#each { length: 5 } as _, i (i)}
 				<li>
 					<img
-						class="xl:auto h-16 md:h-28"
+						class=" mr-4 h-16 md:mr-8 md:h-28 xl:mr-16"
 						src="{base}/svgs/companies/comp-{i + 1}.svg"
 						alt="title"
 					/>
