@@ -3,13 +3,14 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		screens: {
+			phone: '350px', //just a smaller sized phone
 			sm: '640px',
 			md: '768px',
 			lg: '1024px',
 			xl: '1280px',
 			'2xl': '1400px',
 			'3xl': '1700px',
-      '4xl': '1920px'
+			'4xl': '1920px'
 		},
 		extend: {
 			fontFamily: {
@@ -41,6 +42,9 @@ export default {
 			},
 			borderRadius: {
 				'4xl': '4rem'
+			},
+			fontSize: {
+				'2xs': '10px'
 			}
 		}
 	},
