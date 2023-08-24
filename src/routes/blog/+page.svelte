@@ -13,9 +13,11 @@
 	}
 
 	let posts: Post[] = [];
-	const parser = new DOMParser();
+	let parser: DOMParser | null = null;
 
 	onMount(async () => {
+		parser = new DOMParser();
+
 		if (browser) {
 			const res = await fetch(
 				'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@galactic-syndicate'
@@ -43,6 +45,7 @@
 	}
 
 	function extractString(html: string): string {
+		if (!parser) return '';
 		let doc = parser.parseFromString(html, 'text/html');
 		let firstParagraph = doc.body.querySelector('p');
 		if (firstParagraph) {
