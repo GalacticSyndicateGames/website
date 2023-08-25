@@ -171,7 +171,7 @@
 	@media (min-width: 350px) {
 		.truncate {
 			white-space: normal;
-			overflow: auto;
+			overflow: hidden;
 			text-overflow: unset;
 		}
 	}
