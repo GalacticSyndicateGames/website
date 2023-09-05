@@ -2,9 +2,10 @@ import type { JobDescription } from './types';
 
 export const jobs: Array<JobDescription> = [
 	{
-		title: 'DevOps + Infra Engineer',
+		title: 'Data Layer Engineer',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'You will be working together with both the platform team and the gameplay engineering team as well as game designers to understand the game experience and architect the underlying databases and APIs.',
+			'You will be working on the persistence layer of the core platform, focusing on the APIs to expose the shared data across the backend services, game server and clients. You will ensure that data operations work flawlessly and reliably.',
 		slug: 'devops-infra',
 		whatWeNeed: [
 			'Lorem ipsum dolor sit amet, consectetur',
