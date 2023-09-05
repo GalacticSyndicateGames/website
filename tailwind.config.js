@@ -41,7 +41,7 @@ export default {
 				//wrapper: '4rem'
 			},
 			borderRadius: {
-				'4xl': '4rem'
+				'4xl': '2.5rem'
 			},
 			fontSize: {
 				'2xs': '10px'

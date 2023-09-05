@@ -1,19 +1,32 @@
-<li
-	class="max-w-sm md:max-w-96 flex w-full flex-col items-center justify-between gap-x-8 rounded-3xl border-4 border-black bg-darkNavy p-4 font-aldrich text-white shadow-lg shadow-black/40 md:aspect-auto md:max-w-fit md:flex-row md:items-center xl:p-6 gap-6 md:gap-16"
->
-	<div class="space-y-2">
-		<h3 class="text-xl font-semibold xl:text-5xl">Senior Software Engineer</h3>
-		<p class="max-w-lg font-anonymous  leading-tight  text-sm md:text-base md:leading-tight">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-			veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-			commodo consequat.
-		</p>
-	</div>
-	<a
-		href=""
-		class="rounded-full border-2 border-white px-6 py-2 font-aldrich text-lg md:text-2xl xl:text-4xl"
+<script lang="ts" context="module">
+	export interface JobDescription {
+		title: string;
+		description: string;
+		slug: string;
+	}
+</script>
+
+<script lang="ts">
+	export let jd: JobDescription;
+</script>
+
+<li class="w-full">
+	<div
+		class="mx-auto flex flex-col items-start justify-between gap-8 rounded-4xl border-4 border-black bg-darkNavy p-4 md:flex-row md:items-center md:gap-x-16 xl:border-8 xl:p-12"
 	>
-		Learn&nbsp;more
-	</a>
+		<div class="space-y-2 md:space-y-4 xl:space-y-6">
+			<h3 class="font-aldrich text-lg md:text-3xl xl:text-5xl">{jd.title}</h3>
+			<p
+				class="w-full max-w-screen-lg font-anonymous text-sm leading-tight md:text-base md:leading-tight xl:text-3xl"
+			>
+				{jd.description}
+			</p>
+		</div>
+		<a
+			href="career/positions/{jd.slug}"
+			class="rounded-full border-2 border-white px-6 py-1.5 font-aldrich text-lg transition-all duration-200 hover:-translate-y-2 hover:opacity-80 md:border-4 md:px-8 md:py-3 md:text-3xl xl:px-12 xl:py-8 xl:text-5xl"
+		>
+			Learn&nbsp;more
+		</a>
+	</div>
 </li>
