@@ -1,8 +1,5 @@
-export type Post = {
+export type JobDescription = {
 	title: string;
-	author: string;
-	slug: string;
 	description: string;
-	date: string;
-	published: boolean;
+	slug: string;
 };

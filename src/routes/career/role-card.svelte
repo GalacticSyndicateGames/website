@@ -1,13 +1,6 @@
-<script lang="ts" context="module">
-	export interface JobDescription {
-		title: string;
-		description: string;
-		slug: string;
-	}
-</script>
-
 <script lang="ts">
-	export let jd: JobDescription;
+  import type {JobDescription} from "$lib/types"
+  export let jd: JobDescription
 </script>
 
 <li class="w-full">
@@ -23,7 +16,7 @@
 			</p>
 		</div>
 		<a
-			href="career/positions/{jd.slug}"
+			href="/career/{jd.slug}"
 			class="rounded-full border-2 border-white px-6 py-1.5 font-aldrich text-lg transition-all duration-200 hover:-translate-y-2 hover:opacity-80 md:border-4 md:px-8 md:py-3 md:text-3xl xl:px-12 xl:py-8 xl:text-5xl"
 		>
 			Learn&nbsp;more
