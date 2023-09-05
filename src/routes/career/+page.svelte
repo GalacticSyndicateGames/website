@@ -20,13 +20,11 @@
 			We&apos;re Hiring
 		</h1>
 		<p class={textStyle}>
-			We're looking for teammates who are Lorem ipsum dolor sit amet,
-			consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-			ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-			nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-			culpa qui officia deserunt mollit anim id est laborum.
+			We’re Galactic Syndicate and our business is fun. We build video games, and we love it. 
+			Games are universally understood, and modern video games engage all ages. 
+			Imagine building something that can be in the hands of everyone, from children to grandmothers! 
+			We are a remote-first global video game development company with roots in Budapest and California. 
+			We’re looking for software developers that share our passion.
 		</p>
 		<p class={textStyle}>
 			Don't see what you fit into? Drop us a line at <a
