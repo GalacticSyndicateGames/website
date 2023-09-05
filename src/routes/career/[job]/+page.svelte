@@ -29,9 +29,8 @@
 				{data.job.description}
 			</p>
 
-			<List title="What we need" items={data.job.whatWeNeed} />
-			<List title="What do you get" items={data.job.whatYouGet} />
-			<List title="What to send" items={data.job.whatToSend} />
+			<List title="Responsibilities" items={data.job.whatYouDo} />
+			<List title="What are we looking for" items={data.job.whatWeLookFor} />
 		</div>
 	{/if}
 </section>
