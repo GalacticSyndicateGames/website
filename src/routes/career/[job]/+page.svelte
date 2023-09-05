@@ -17,11 +17,12 @@
 				>
 					{data.job.title}
 				</h1>
-				<button
+				<a
 					href="https://forms.gle/7C2D1XYY6kD3BrvYA"
 					class="rounded-full border-2 border-evenDarkerNavy px-8 py-1 pb-1.5 text-xl text-evenDarkerNavy md:text-2xl xl:border-4 xl:px-16 xl:pb-5 xl:pt-3 xl:text-4xl"
-					>Apply</button
 				>
+					Apply
+				</a>
 			</div>
 
 			<p
