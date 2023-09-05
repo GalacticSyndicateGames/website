@@ -5,7 +5,6 @@ export const jobs: Array<JobDescription> = [
 		title: 'Data Layer Engineer',
 		description:
 			'You will be working together with both the platform team and the gameplay engineering team as well as game designers to understand the game experience and architect the underlying databases and APIs.',
-			'You will be working on the persistence layer of the core platform, focusing on the APIs to expose the shared data across the backend services, game server and clients. You will ensure that data operations work flawlessly and reliably.',
 		slug: 'devops-infra',
 		whatWeNeed: [
 			'Lorem ipsum dolor sit amet, consectetur',
