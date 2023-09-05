@@ -35,7 +35,7 @@ export const jobs: Array<JobDescription> = [
 		title: 'Frontend Engineer',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-		slug: 'devops-infra',
+		slug: 'frontend-swe',
 		whatWeNeed: [
 			'Lorem ipsum dolor sit amet, consectetur',
 			'adipiscing elit, sed do eiusmod tempor',
@@ -65,7 +65,7 @@ export const jobs: Array<JobDescription> = [
 		title: 'Senior SWE Engineer',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-		slug: 'devops-infra',
+		slug: 'senior-swe',
 		whatWeNeed: [
 			'Lorem ipsum dolor sit amet, consectetur',
 			'adipiscing elit, sed do eiusmod tempor',
