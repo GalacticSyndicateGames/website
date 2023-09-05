@@ -5,7 +5,7 @@ export const jobs: Array<JobDescription> = [
 		title: 'Data Layer Engineer',
 		description:
 			'You will be working together with both the platform team and the gameplay engineering team as well as game designers to understand the game experience and architect the underlying databases and APIs.',
-		slug: 'devops-infra',
+		slug: 'data-layer',
 		whatYouDo: [
 			'Build APIs in the Data Layer to support new gameplay capabilities',
 			'Understand the end to end system behavior',
@@ -26,7 +26,7 @@ export const jobs: Array<JobDescription> = [
 		title: 'Cloud Infrastructure Engineer',
 		description:
 			'To create an engaging gaming experience we need to lay down the fundamentals of the support platform. A multi-world MMO requires well-designed, flexible infrastructure connected to a quick delivery pipeline.',
-		slug: 'frontend-swe',
+		slug: 'cloud-infra',
 		whatYouDo: [
 			'Design and build the CI pipeline and the development, stage production environments',
 			'Build up a proactive monitoring and alerting system',
@@ -50,7 +50,7 @@ export const jobs: Array<JobDescription> = [
 		title: 'Software Engineer Intern',
 		description:
 			'You have the chance to get in the world of game development, you will understand how your favorite games are created.',
-		slug: 'senior-swe',
+		slug: 'swe-intern',
 		whatYouDo: [
 			'Work with senior game developers',
 			'Understand the end to end system behavior',
