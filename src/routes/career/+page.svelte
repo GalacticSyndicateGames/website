@@ -25,6 +25,15 @@
 			Imagine building something that can be in the hands of everyone, from children to grandmothers! 
 			We are a remote-first global video game development company with roots in Budapest and California. 
 			We’re looking for software developers that share our passion.
+
+			Our founders are four gamers, friends, and industry veterans who decided to team up and build an independent game company focused on building the best mobile and PC experiences for our partners, players, and employees without compromise. 
+			We use our decades of industry experience on iconic franchises such as The Sims, Pogo, FIFA, Madden, and Call of Duty to inform our vision and develop customized solutions that impact the bottom line.
+
+			In an industry based on fun, your job should be fun! For us, fun is: solving hard problems, coloring outside the lines, building the impossible, and working collaboratively. 
+			Fun is seeing someone play your game on a bus or plane. 
+			It’s seeing a co-worker’s idea succeed, then they turn around and help you realize your idea. We value every idea, contribution, perspective; and will work tirelessly to put those ideas into something tangible in the hands of our players. 
+			If this sounds interesting to you, reach out to us!
+
 		</p>
 		<p class={textStyle}>
 			Don't see what you fit into? Drop us a line at <a
