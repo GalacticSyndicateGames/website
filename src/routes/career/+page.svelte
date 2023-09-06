@@ -5,7 +5,7 @@
 	export let data;
 
 	const textStyle =
-		'w-full font-anonymous  text-center no-leading max-w-xs sm:max-w-sm sm:text-xl md:text-2xl  md:text-left md:max-w-screen-sm xl:max-w-screen-md';
+		'w-full font-anonymous  text-center no-leading max-w-xs sm:max-w-sm sm:text-xl md:text-xl  md:text-left md:max-w-screen-sm xl:max-w-screen-md';
 </script>
 
 <svelte:head>
