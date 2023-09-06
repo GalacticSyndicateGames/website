@@ -5,7 +5,7 @@
 	export let data;
 
 	const textStyle =
-		'w-full font-anonymous  text-center no-leading max-w-xs sm:max-w-sm sm:text-xl md:text-xl  md:text-left md:max-w-screen-sm xl:max-w-screen-md';
+		'w-full font-anonymous  text-center no-leading max-w-xs sm:max-w-sm sm:text-md md:text-md  md:text-left md:max-w-screen-sm xl:max-w-screen-md';
 </script>
 
 <svelte:head>
@@ -30,7 +30,7 @@
 		<p class={textStyle}>
 			Our founders are four gamers, friends, and industry veterans who decided to team up and build an independent game company focused on building the best mobile and PC experiences for our partners, players, and employees without compromise. 
 			We use our decades of industry experience on iconic franchises such as The Sims, Pogo, FIFA, Madden, and Call of Duty to inform our vision and develop customized solutions that impact the bottom line.
-			
+
 		</p>
 		<p class={textStyle}>
 			In an industry based on fun, your job should be fun! For us, fun is: solving hard problems, coloring outside the lines, building the impossible, and working collaboratively. 
