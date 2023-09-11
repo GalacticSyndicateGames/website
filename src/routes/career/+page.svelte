@@ -20,24 +20,31 @@
 			We&apos;re Hiring
 		</h1>
 		<p class={textStyle}>
-			We’re Galactic Syndicate and our business is fun. We build video games, and we love it. 
-			Games are universally understood, and modern video games engage all ages. 
-			Imagine building something that can be in the hands of everyone, from children to grandmothers! 
-			We are a remote-first global video game development company with roots in Budapest and California. 
+			We’re Galactic Syndicate and our business is fun. We build video games,
+			and we love it. Games are universally understood, and modern video games
+			engage all ages. Imagine building something that can be in the hands of
+			everyone, from children to grandmothers! We are a remote-first global
+			video game development company with roots in Budapest and California.
 			We’re looking for software developers that share our passion.
-
 		</p>
 		<p class={textStyle}>
-			Our founders are four gamers, friends, and industry veterans who decided to team up and build an independent game company focused on building the best mobile and PC experiences for our partners, players, and employees without compromise. 
-			We use our decades of industry experience on iconic franchises such as The Sims, Pogo, FIFA, Madden, and Call of Duty to inform our vision and develop customized solutions that impact the bottom line.
-
+			Our founders are four gamers, friends, and industry veterans who decided
+			to team up and build an independent game company focused on building the
+			best mobile and PC experiences for our partners, players, and employees
+			without compromise. We use our decades of industry experience on iconic
+			franchises such as The Sims, Pogo, FIFA, Madden, and Call of Duty to
+			inform our vision and develop customized solutions that impact the bottom
+			line.
 		</p>
 		<p class={textStyle}>
-			In an industry based on fun, your job should be fun! For us, fun is: solving hard problems, coloring outside the lines, building the impossible, and working collaboratively. 
-			Fun is seeing someone play your game on a bus or plane. 
-			It’s seeing a co-worker’s idea succeed, then they turn around and help you realize your idea. We value every idea, contribution, perspective; and will work tirelessly to put those ideas into something tangible in the hands of our players. 
-			If this sounds interesting to you, reach out to us!
-
+			In an industry based on fun, your job should be fun! For us, fun is:
+			solving hard problems, coloring outside the lines, building the
+			impossible, and working collaboratively. Fun is seeing someone play your
+			game on a bus or plane. It’s seeing a co-worker’s idea succeed, then they
+			turn around and help you realize your idea. We value every idea,
+			contribution, perspective; and will work tirelessly to put those ideas
+			into something tangible in the hands of our players. If this sounds
+			interesting to you, reach out to us!
 		</p>
 		<p class={textStyle}>
 			Don't see what you fit into? Drop us a line at <a
@@ -47,9 +54,22 @@
 		</p>
 		<a
 			href="#roles"
-			class="mb-12 font-aldrich text-3xl text-darkNavy underline md:mb-16 md:hidden md:text-5xl xl:mb-20 xl:text-7xl"
-			>Open roles</a
-		>
+			class="transitions-colors inline-flex items-center gap-4 rounded-full bg-darkNavy px-8 py-2 font-aldrich text-2xl text-white drop-shadow-md duration-200 hover:bg-darkNavy/90"
+			>Open roles <svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke-width="1.5"
+				stroke="currentColor"
+				class="h-6 w-6"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
+				/>
+			</svg>
+		</a>
 	</div>
 	<div
 		id="roles"
