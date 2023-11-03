@@ -3,7 +3,7 @@
 		name: string;
 		role: string;
 		description: string;
-    imgSrc: string;
+		imgSrc: string;
 	};
 </script>
 
@@ -13,21 +13,32 @@
 </script>
 
 <div class="flex flex-col md:gap-8">
-	<div class="flex flex-col items-center md:items-start md:gap-x-6 xl:gap-x-12 {align ==='left' ? 'md:flex-row' : 'md:flex-row-reverse'}">
-
+	<div
+		class="flex flex-col items-center md:items-start md:gap-x-6 xl:gap-x-12 {align ===
+		'left'
+			? 'md:flex-row'
+			: 'md:flex-row-reverse'}"
+	>
 		<div
-			class="aspect-square h-[180px] w-[180px] md:w-[250px] md:h-[250px] xl:h-[500px] xl:w-[500px] flex-shrink-0"
+			class="aspect-square h-[180px] w-[180px] flex-shrink-0 md:h-[250px] md:w-[250px] xl:h-[400px] xl:w-[400px]"
 		>
-			<img src={member.imgSrc} alt={`Portrait of ${member.name}, ${member.role}`} />
+			<img
+				src={member.imgSrc}
+				alt={`Portrait of ${member.name}, ${member.role}`}
+			/>
 		</div>
 
-		<div class="w-full flex flex-col items-center {align === 'left' ? 'md:items-start' : 'md:items-end'}">
-			<h3 class="mt-2 xl:mt-0 font-aldrich text-xl xl:text-6xl text-blue ">
+		<div
+			class="flex w-full flex-col items-center {align === 'left'
+				? 'md:items-start'
+				: 'md:items-end'}"
+		>
+			<h3 class="mt-2 font-aldrich text-xl text-blue xl:mt-0 xl:text-6xl">
 				{member.name}
 			</h3>
-			<p class="font-anonymous text-xl xl:text-6xl text-blue">{member.role}</p>
+			<p class="font-anonymous text-xl text-blue xl:text-6xl">{member.role}</p>
 			<p
-				class="mt-4 w-4/5 font-anonymous text-base xl:text-3xl text-center {align ===
+				class="mt-4 w-4/5 text-center font-anonymous text-base xl:text-3xl {align ===
 				'left'
 					? 'md:text-left'
 					: 'md:text-right'}"
@@ -35,6 +46,5 @@
 				{member.description}
 			</p>
 		</div>
-
 	</div>
 </div>
