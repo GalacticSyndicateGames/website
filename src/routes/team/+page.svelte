@@ -11,32 +11,11 @@
 				'Balazs has a knack for building and running high-performing product engineering teams. In his roles at various small startups and big names like Cloudera, Formlabs, Prezi and Nokia he saw that people who worked around him made things happen. Based in Budapest but with his heart in California, he brings a cool mix of innovation and know-how to the table.'
 		},
 		{
-			name: 'Balazs K. (BK)',
-			role: 'Software Engineer',
-			imgSrc: '/images/team/balazs-k.png',
-			description:
-				'BK is a true full-stack senior developer covering everything from database through backend and frontend including pipelines and DevOps processes.'
-		},
-		{
-			name: 'Laszlo',
-			role: 'Software Engineer',
-			imgSrc: '/images/team/laszlo.png',
-			description:
-				'Laszlo is an engineering leader who is keen on new technologies and methodologies that support software development. He thrives on creating and optimizing SLDC pipelines, including developer experience, release and testing infrastructure and monitoring solutions.'
-		},
-		{
-			name: 'Szabi',
+			name: 'Alex',
 			role: 'Engineer',
-			imgSrc: '/images/team/szabi.png',
+			imgSrc: '/images/team/alex.png',
 			description:
-				"Szabi loved video games for as long as he can remember. After he got his first NES console when he was 4, gaming became a huge part of his life. Szabi grew up collecting NES games and storing them in a shoebox, running around the house like Sonic, and killing imaginary enemies with my imaginary guns like Lara Croft. He's a Generalist, ready to work on any part of a game."
-		},
-		{
-			name: 'Betti',
-			role: 'Recruiter',
-			imgSrc: '/images/team/betti.png',
-			description:
-				'Betti has a remarkable ability to identify exceptional talents. She has worked with global companies including Cloudera and GitLab to assemble winning teams that thrive on creative problem solving. Her emphasis on fostering a culture of innovation and driving efficiency has made a significant impact on the success of the organizations she has worked with.'
+				'Alex is a passionate software engineer, striving for efficiency in his work. His journey began in high school, where he learned programming, and it has led him to experiment with all kinds of coding. He finds joy in developing optimized solutions for backend services and internal tools.'
 		},
 		{
 			name: 'Andras',
@@ -46,6 +25,62 @@
 				'Ever since his childhood Andras was always entertained by the worlds of books, movies, and video games. He also enjoy creating and building things, figuring out solutions to mind-bending problems. Game development has everything Andras love: fantasy, creativity, ingenuity. Andras mainly enjoy working on Gameplay, that is where he is most experienced.'
 		},
 		{
+			name: 'Balazs K. (BK)',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/balazs-k.png',
+			description:
+				'BK is a true full-stack senior developer covering everything from database through backend and frontend including pipelines and DevOps processes.'
+		},
+		{
+			name: 'Betti',
+			role: 'Recruiter',
+			imgSrc: '/images/team/betti.png',
+			description:
+				'Betti has a remarkable ability to identify exceptional talents. She has worked with global companies including Cloudera and GitLab to assemble winning teams that thrive on creative problem solving. Her emphasis on fostering a culture of innovation and driving efficiency has made a significant impact on the success of the organizations she has worked with.'
+		},
+		{
+			name: 'Bence',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/bence.png',
+			description:
+				"Bence is a software engineer with a passion for gaming. While his main focus lies in DevOps and tackling infrastructural challenges, don't be deceived. His interest in game development traces back to the day he unwrapped his first Nintendo Famicom console. As a lifelong learner, you're welcome to reach out to him with any tech-related inquiries."
+		},
+		{
+			name: 'evik',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/evik.png',
+			description:
+				'evik is a seasoned polyglot developer who often finds himself chasing elusive bugs and digging in documentation to squeeze out more performance. His current focus is Rust, WebAssembly and WebGPU with interest in using generative AI as a coding companion.'
+		},
+		{
+			name: 'Laci',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/laci.png',
+			description:
+				'Laci is an engineering leader who is keen on new technologies and methodologies that support software development. He thrives on creating and optimizing SLDC pipelines, including developer experience, release and testing infrastructure and monitoring solutions.'
+		},
+		{
+			name: 'Levi',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/levi.png',
+			description:
+				'Levi became a software engineer because of his love for video games in his childhood. He started learning coding at a young age and was introduced to many technologies, furthering his interest in computer science. What motivates Levi is the art of creating an experience through code, bringing fantasy and reality as close as it is possible.'
+		},
+		{
+			name: 'Mate',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/mate.png',
+			description:
+				'Mate is a passionate software engineer intern with a deep love for video games that spans over a decade. His enthusiasm for both playing and creating games drives him to solve complex problems in the gaming world.'
+		},
+		{
+			name: 'Misi',
+			role: 'Software Engineer',
+			imgSrc: '/images/team/misi.png',
+			description:
+				'Misi is a backend engineer, worked on a wide variety of consumer and business applications. He prefers to work with functional and strongly typed programming languages on tough problems. He is very much interested in new technologies and gadgets, loves casual, "indy" or racing games.In real life he enjoys riding motorbikes, travel around, spend time outdoors and taking a lot of photos.'
+		},
+		{
 			name: 'Reka',
 			role: 'Designer',
 			imgSrc: '/images/team/reka.png',
@@ -53,11 +88,23 @@
 				'Réka is our designer with a passion for creating visually stunning and user-friendly digital experiences. Réka has loved the world of art since she was young. She studied engineering at university, where she realized that the combination of the two was the perfect profession for her.'
 		},
 		{
-			name: 'Alex',
-			role: 'Engineer',
-			imgSrc: '/images/team/alex.png',
+			name: 'Zita',
+			role: 'Project Manager',
+			imgSrc: '/images/team/zita.png',
 			description:
-				'Alex is a passionate software engineer, striving for efficiency in his work. His journey began in high school, where he learned programming, and it has led him to experiment with all kinds of coding. He finds joy in developing optimized solutions for backend services and internal tools.'
+				"Ever since she first laid eyes on the 1992 arcade game 'UGH!' - featuring a helicopter-riding caveman - Zita has loved video games. Fast-forward to today, she has become an advocate for people in the world of game development. With a blend of expertise in psychology, HR and UX, Zita's mission is to create an environment where both players and employees can flourish and have fun."
+		}
+	];
+
+	const advisors: Array<Member> = [
+		{
+			name: 'Diane',
+			role: 'Advisor',
+			imgSrc: '/images/team/diane.png',
+			description: `
+      		From an advisory standpoint, Diane offers over two decades of expertise in the gaming industry. Her formative years were marked by the presence of malls, Saturday morning cartoons, and arcades, all of which continue to hold a special place in her heart. Browsing through stores remains her happy pastime, and watching cartoons never fails to bring her joy. However, video games stand out as her true passion. She can still recall her father's skepticism about the value of playing those "damned" games, a sentiment that seemed at odds with her eventual journey.\r\n
+      		Fast forward to a happy accident, when a phone call connected her with someone looking for a writer at Electronic Arts. Over the course of more than two decades, she has contributed her talents to nearly every aspect of game development, spanning from engineering to art and concept creation to the sunset phase. Her impressive portfolio includes involvement in over 80 games, a testament to her enduring dedication and impact on the gaming industry.
+      		`
 		},
 		{
 			name: 'Ishai',
@@ -88,6 +135,18 @@
 			{#each team as m, i}
 				<li>
 					<MemberCard member={m} align={i % 2 ? 'left' : 'right'} />
+				</li>
+			{/each}
+		</ul>
+		<h2
+			class="font-aldrich text-2xl uppercase text-blue md:text-4xl xl:text-7xl"
+		>
+			Advisors
+		</h2>
+		<ul class="space-y-16">
+			{#each advisors as m, i}
+				<li>
+					<MemberCard member={m} align={i % 2 ? 'right' : 'left'} />
 				</li>
 			{/each}
 		</ul>
