@@ -25,13 +25,6 @@
 				'Ever since his childhood Andras was always entertained by the worlds of books, movies, and video games. He also enjoy creating and building things, figuring out solutions to mind-bending problems. Game development has everything Andras love: fantasy, creativity, ingenuity. Andras mainly enjoy working on Gameplay, that is where he is most experienced.'
 		},
 		{
-			name: 'Balazs K. (BK)',
-			role: 'Software Engineer',
-			imgSrc: '/images/team/balazs-k.png',
-			description:
-				'BK is a true full-stack senior developer covering everything from database through backend and frontend including pipelines and DevOps processes.'
-		},
-		{
 			name: 'Betti',
 			role: 'Recruiter',
 			imgSrc: '/images/team/betti.png',
@@ -97,15 +90,6 @@
 	];
 
 	const advisors: Array<Member> = [
-		{
-			name: 'Diane',
-			role: 'Advisor',
-			imgSrc: '/images/team/diane.png',
-			description: `
-      From an advisory standpoint, Diane offers over two decades of expertise in the gaming industry. Her formative years were marked by the presence of malls, Saturday morning cartoons, and arcades, all of which continue to hold a special place in her heart. Browsing through stores remains her happy pastime, and watching cartoons never fails to bring her joy. However, video games stand out as her true passion. She can still recall her father's skepticism about the value of playing those "damned" games, a sentiment that seemed at odds with her eventual journey.\r\n
-      Fast forward to a happy accident, when a phone call connected her with someone looking for a writer at Electronic Arts. Over the course of more than two decades, she has contributed her talents to nearly every aspect of game development, spanning from engineering to art and concept creation to the sunset phase. Her impressive portfolio includes involvement in over 80 games, a testament to her enduring dedication and impact on the gaming industry.
-      `
-		},
 		{
 			name: 'Ishai',
 			role: 'Advisor',
