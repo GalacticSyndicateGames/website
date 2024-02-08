@@ -101,7 +101,7 @@
 </script>
 
 <svelte:head>
-	<title>Team | Galactic Syndicate</title>
+	<title>Team | Galactic Fleet</title>
 </svelte:head>
 
 <section

@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Galactic Syndicate</title>
+	<title>Galactic Fleet</title>
 </svelte:head>
 
 <!-- <div
