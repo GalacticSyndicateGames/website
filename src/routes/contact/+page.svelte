@@ -1,9 +1,6 @@
 <svelte:head>
-	<title>Contact | Galactic Syndicate</title>
-	<meta
-		name="description"
-		content="Contact informations for Galactic Syndicate"
-	/>
+	<title>Contact | Galactic Fleet</title>
+	<meta name="description" content="Contact informations for Galactic Fleet" />
 </svelte:head>
 
 <!-- <section
@@ -13,7 +10,7 @@
 <section
 	class="px-wrapper max-w-screen relative flex min-h-screen items-center justify-end overflow-hidden bg-[url('/svgs/layout/contact-bg.svg')] 3xl:bg-cover"
 >
-	<h1 class="sr-only">Contact informations for Galactic Syndicate</h1>
+	<h1 class="sr-only">Contact informations for Galactic Fleet</h1>
 
 	<div
 		class="flex h-full w-fit flex-col items-start justify-center gap-y-4 md:gap-y-6 xl:gap-y-8"

@@ -87,7 +87,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog | Galactic Syndicate</title>
+	<title>Blog | Galactic Fleet</title>
 </svelte:head>
 
 <section>

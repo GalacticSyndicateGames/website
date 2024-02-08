@@ -44,7 +44,7 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio | Galactic Syndicate</title>
+	<title>Portfolio | Galactic Fleet</title>
 	<meta name="description" content="Portfolio description" />
 </svelte:head>
 

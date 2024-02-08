@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Career | Galactic Syndicate</title>
+	<title>Career | Galactic Fleet</title>
 </svelte:head>
 
 <section class="bg-babyBlue">
@@ -20,12 +20,12 @@
 			We&apos;re Hiring
 		</h1>
 		<p class={textStyle}>
-			We’re Galactic Syndicate and our business is fun. We build video games,
-			and we love it. Games are universally understood, and modern video games
-			engage all ages. Imagine building something that can be in the hands of
-			everyone, from children to grandmothers! We are a remote-first global
-			video game development company with roots in Budapest and California.
-			We’re looking for software developers that share our passion.
+			We’re Galactic Fleet and our business is fun. We build video games, and we
+			love it. Games are universally understood, and modern video games engage
+			all ages. Imagine building something that can be in the hands of everyone,
+			from children to grandmothers! We are a remote-first global video game
+			development company with roots in Budapest and California. We’re looking
+			for software developers that share our passion.
 		</p>
 		<p class={textStyle}>
 			Our founders are four gamers, friends, and industry veterans who decided
