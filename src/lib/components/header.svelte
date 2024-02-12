@@ -15,10 +15,6 @@
 			href: '/portfolio'
 		},
 		{
-			title: 'Blog',
-			href: '/blog'
-		},
-		{
 			title: 'Career',
 			href: '/career'
 		},

@@ -20,7 +20,7 @@
 		<div class="inline-block w-fit text-justify after:content-['']">
 			<Logo />
 			<p
-				class="-mt-1 ml-1 font-anonymous text-sm font-semibold capitalize drop-shadow-md md:-mt-3 md:ml-2 md:text-2xl lg:ml-3 xl:-mt-4 xl:ml-4 xl:text-4xl"
+				class="-mt-1 font-anonymous text-sm font-semibold capitalize drop-shadow-md md:-mt-3 md:text-2xl xl:-mt-4 xl:text-4xl"
 			>
 				Mobile Game Development
 			</p>
