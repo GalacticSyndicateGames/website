@@ -52,13 +52,13 @@
 			description:
 				'Laci is an engineering leader who is keen on new technologies and methodologies that support software development. He thrives on creating and optimizing SLDC pipelines, including developer experience, release and testing infrastructure and monitoring solutions.'
 		},
-		{
+		/*{
 			name: 'Levi',
 			role: 'Software Engineer',
 			imgSrc: '/images/team/levi.png',
 			description:
 				'Levi became a software engineer because of his love for video games in his childhood. He started learning coding at a young age and was introduced to many technologies, furthering his interest in computer science. What motivates Levi is the art of creating an experience through code, bringing fantasy and reality as close as it is possible.'
-		},
+		},*/
 		{
 			name: 'Mate',
 			role: 'Software Engineer',
@@ -80,13 +80,13 @@
 			description:
 				'Réka is our designer with a passion for creating visually stunning and user-friendly digital experiences. Réka has loved the world of art since she was young. She studied engineering at university, where she realized that the combination of the two was the perfect profession for her.'
 		},
-		{
+		/*{
 			name: 'Zita',
 			role: 'Project Manager',
 			imgSrc: '/images/team/zita.png',
 			description:
 				"Ever since she first laid eyes on the 1992 arcade game 'UGH!' - featuring a helicopter-riding caveman - Zita has loved video games. Fast-forward to today, she has become an advocate for people in the world of game development. With a blend of expertise in psychology, HR and UX, Zita's mission is to create an environment where both players and employees can flourish and have fun."
-		}
+		}*/
 	];
 
 	const advisors: Array<Member> = [
