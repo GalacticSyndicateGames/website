@@ -11,8 +11,7 @@
 	>
 		<img
 			src="/images/fashiongamejam2024/poster.jpg"
-			alt="Landing"
-			usemap="#image-map"
+			alt="Register to the Fashion GameJam 2024 event."
 		/>
 	</a>
 </section>
