@@ -48,7 +48,7 @@ jobs:
           touch build/.nojekyll
 
       - name: Upload Build Artifacts
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'build/'
 
