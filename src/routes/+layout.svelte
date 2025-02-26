@@ -19,11 +19,5 @@
 </svelte:head>
 
 <div class="text-white">
-	<Header />
-	{#key data.url}
-		<main in:fly={{ duration: 400 }} out:fly={{ duration: 100 }}>
-			<slot />
-		</main>
-	{/key}
-	<Footer />
+	Under construction.
 </div>
